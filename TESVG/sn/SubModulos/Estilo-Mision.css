@@ -1,0 +1,259 @@
+/* Edicion de todo nuestro contenido */
+main {
+    width: 90%;
+    /*width: 890px; */
+    max-width: 1000px;
+    margin: auto;
+    background: rgb(211, 209, 209);
+    padding: 0px;
+    margin-top: 0px;
+  }
+  
+  a.navegadores {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Contennedor general */
+  .cont-general {
+    width: 100%;
+  }
+  
+  /* contenedor del titulo y de los logos  */
+  .cont-titulo {
+    width: 100%;
+    /* margin: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #060763;
+    display: flex;
+    justify-content: center;
+  }
+  .titulo-principal {
+    font-size: 60px;
+  }
+  
+  /* Estilos franja azul */
+  .Cont-subti-ing {
+    width: 100%;
+    background:rgb(211, 209, 209);
+    display: flex;
+    justify-content: center;
+    color: #060763;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .images-generales {
+    width: 100%;
+  }
+  
+  /* Contenedor de todos los tecnologicos */
+  .cont-todos-tec {
+    width: 100%;
+    color: #060763;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .tecnologicos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .tecnologicos:hover {
+    background-color: aqua;
+  }
+  .navegar-tec {
+    text-decoration: none;
+  }
+  
+  /* Texto para una noticia con imagena a la derecha */
+  .text1 {
+    
+    float: left;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: left;
+    text-decoration: solid;
+    font-size: 30px;
+    font-family: ShitHappensTriald;
+    color: #060763;
+  }
+  .text2 {
+    float: left;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 40px;
+    /* padding-left: 100px; */
+    text-align: left;
+    text-decoration: solid;
+    font-size: 25px;
+    font-family: ShitHappensTriald;
+    color: #060763;
+  }
+  
+  .text2 h4{
+    margin: 40px auto;
+  }
+  
+  /* Franja azul */
+  .franja-azul {
+    width: 100%;
+    height: 20px;
+    background: #060763;
+  }
+  
+  /* Contenedor de las imagenes del tecnologico */
+  div.cont-nom-tecnologico {
+     width: 100%;
+     
+    background:rgb(211, 209, 209);
+    display: flex;
+    justify-content: center;
+    color: #060763;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  /* Ocupara para una imagen a la derecha */
+  div.cont-titulo img.imagen-derecha {
+    margin: auto;
+    float: left;
+    padding-top: 25px;
+    margin-right: 60px;
+    width: 250px;
+    height: 120px;
+  }
+  /* Ocupara para una imagen a la izquierda */
+  div.cont-titulo img.imagen-izquierda {
+    
+    padding-top: 25px;
+    float: left;
+    margin-left: 90px;
+  }
+  
+/* ------------------------------------------------------------------------------ */
+/* Seccion donde estan todos los elemnetos de las secciones */
+
+/* Propiedades generales de todas las franjas azul del titulo */
+.contenedorgeneral {
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Letras de enmedio de todas las franjas azules */
+  .titulos {
+    background: #060763;
+    text-align: center;
+    text-decoration: solid;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    width: auto;
+    padding: 5px;
+  }
+  
+  /* Propiedaes de todas las noticias */
+  div.noticias {
+    width: 90%;
+    margin: 20px auto;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+  }
+  
+  /* Ocupar para una ina imagen a la izquierda */
+  div.noticias img.imagen-izquierda {
+    float: left;
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  /* Ocupara para una imagen a la derecha */
+  div.noticias img.imagen-derecha {
+    float: right;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  /* ---------------------------------------------------------------------------- */
+  
+  /* Tipo de fuente general para los textox de las noticias */
+  @font-face {
+    font-family: ShitHappensTriald;
+    src: url(fuentes/ShitHappensTriald.otf);
+  }
+  /* Texto para una noticia con imagen a la izquierda */
+  .text1 {
+      /* float: left; */
+    width: auto;
+    margin-top: 70px;
+    padding-left: 100px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 30px;
+    font-family: ShitHappensTriald;
+  }
+  
+  /* Texto para una noticia con imagena a la derecha */
+  .text2 {
+    width: auto;
+    margin-top: 70px;
+    /* padding-left: 100px; */
+    text-align: center;
+    text-decoration: solid;
+    font-size: 30px;
+    font-family: ShitHappensTriald;
+  }
+  
+  /* Recetear el partado del texto que no tome todo este es crucial no borrarlo */
+  div.reset {
+    clear: both;
+  }
+  
+  /* Propiedades de todos los botones generales */
+  .btn-contorno {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    text-decoration: none;
+    color: white;
+    background: rgb(8, 117, 117);
+    border-radius: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 15px;
+  }
+
+  /* ------------------------------------------------------------------------ */
+
+  /* @media screen and (max-width: 900px) {
+    .cont-general{
+      margin-top: 50px;
+    }
+  } */
+  @media screen and (max-width: 740px) {
+    .cont-general {
+      margin-top: 50px;
+    }
+    div.cont-titulo img.imagen-izquierda {
+      margin-left: 50px;
+    }
+    div.cont-titulo img.imagen-derecha {
+      /* display: none; */
+      width: 180px;
+      height: 100px;
+    }
+    .text1 {
+      font-size: 30px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .btn1-contorno {
+        margin: auto;
+        width: 190px;
+        margin-top: 20px;
+      }
+  }
+  

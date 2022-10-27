@@ -1,0 +1,129 @@
+/* Edicion de todo nuestro contenido */
+main {
+  width: 90%;
+  /*width: 890px; */
+  max-width: 1000px;
+  margin: auto;
+  background: rgb(211, 209, 209);
+  padding: 0px;
+  margin-top: 0px;
+}
+
+a.navegadores {
+  color: white;
+  text-decoration: none;
+}
+
+/* Contennedor general */
+.cont-general {
+  width: 100%;
+}
+
+/* contenedor del titulo y de los logos  */
+.cont-titulo {
+  width: 100%;
+  /* margin: 50px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #060763;
+  display: flex;
+  justify-content: left;
+}
+.titulo-principal {
+  font-size: 50px;
+  margin-left: 50px;
+}
+/* SeparadorFranja azul */
+.franja-azul {
+  width: 100%;
+  height: 20px;
+  background: #060763;
+}
+
+/* Estilos franja azul contenedor de texto */
+.Cont-subti-ing {
+  width: 100%;
+  background: #060763;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.images-generales {
+  width: 100%;
+}
+
+/* Contenedor de todos los tecnologicos */
+.cont-todos-tec {
+  width: 100%;
+  background: #060763;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tecnologicos {
+  width: 100%;
+  display: flex;
+  margin-top: 6px;
+  text-align-last: center;
+  padding-left: 50px;
+}
+.tecnologicos:hover {
+  background-color: rgb(67, 67, 236);
+}
+.navegar-tec {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+/*Separacion de textos*/
+.h3 {
+  margin-top: 20px;
+}
+/*Oferta educativa en los logos*/
+.text1 {
+  float: left;
+  width: auto;
+  margin-top: 40px;
+  margin-left: 20px;
+  text-align: left;
+  text-decoration: solid;
+  font-size: 30px;
+  font-family: ShitHappensTriald;
+  color: #060763;
+}
+/* Ocupara para una imagen a la derecha */
+div.cont-titulo img.imagen-derecha {
+  margin: auto;
+  float: left;
+  padding-top: 25px;
+  margin-right: 60px;
+  height: 120px;
+}
+/* Ocupara para una imagen a la izquierda */
+div.cont-titulo img.imagen-izquierda {
+  padding-top: 25px;
+  float: left;
+  margin-left: 90px;
+}
+
+@media screen and (max-width: 740px) {
+  .cont-general {
+    margin-top: 50px;
+  }
+  div.cont-titulo img.imagen-izquierda {
+    margin-left: 10px;
+  }
+  div.cont-titulo img.imagen-derecha {
+    /* display: none; */
+    width: 180px;
+    height: 100px;
+  }
+  .text1 {
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,138 @@
+/* Edicion de todo nuestro contenido */
+main {
+  width: 90%;
+  /*width: 890px; */
+  max-width: 1000px;
+  margin: auto;
+  background: rgb(211, 209, 209);
+  padding: 0px;
+  margin-top: 0px;
+}
+
+a.navegadores {
+  color: white;
+  text-decoration: none;
+}
+
+/* Contenedor del nombre del tecnologico */
+div.cont-nom-tecnologico {
+  width: 90%;
+  margin: 0px 20px 20px 20px;
+  color: #060763;
+  padding: 25px;
+}
+/* Ocupara para una imagen a la derecha */
+div.cont-nom-tecnologico img.imagen-derecha {
+  float: right;
+  padding-top: 25px;
+  margin-left: 50px;
+  width: 250px;
+  height: 120px;
+}
+/* Recetear el partado del texto que no tome todo este es crucial no borrarlo */
+div.reset {
+  clear: both;
+}
+/* Texto para una noticia con imagena a la derecha */
+.text2 {
+  width: auto;
+  margin-top: 40px;
+  /* padding-left: 100px; */
+  text-align: right;
+  text-decoration: solid;
+  font-size: 30px;
+  font-family: ShitHappensTriald;
+}
+
+
+/* Franja azul */
+.franja-azul {
+  width: 100%;
+  height: 20px;
+  background: #060763;
+}
+
+/* Conetenedor General */
+.cont-general {
+  width: 100%;
+}
+.conte-imgs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.oneline {
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.oneline3 {
+  /* width: 220px; */
+  width: 100%;
+  margin-left: 60px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+.conte-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.text-img {
+  width: 100%;
+  padding-left: 50px;
+  text-align: center;
+  color: #060763;
+  /* padding-right: 90px; */
+}
+.text-img3 {
+  width: 100%;
+  padding-left: 50px;
+  text-align: center;
+  color: #060763;
+  /* padding-right: 90px; */
+}
+/* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
+/* El valor 768 es los pixeces cuando se activara */
+@media screen and (max-width: 700px) {
+  img.imagen-derecha {
+    margin-top: 60px;
+  }
+  .text2 {
+    margin-top: 80px;
+  }
+  .oneline {
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .oneline3 {
+    width: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .text-img {
+    width: 100%; 
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .text-img3 {
+    width: 100%; 
+    font-size: 15px;
+    padding-left: 40px;
+    
+  }
+}

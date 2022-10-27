@@ -1,0 +1,76 @@
+/* Edicion de todo nuestro contenido */
+main {
+  width: 90%;
+  /*width: 890px; */
+  max-width: 1000px;
+  margin: auto;
+  background: rgb(211, 209, 209);
+  padding: 0px;
+  margin-top: 0px;
+}
+
+/* Contennedor general */
+.contenedorGeneral {
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 90px;
+  padding-right: 90px;
+  color: #060763;
+}
+
+/* Contenedor del texto principal */
+.cont-msg {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+}
+.msg-titulo {
+  font-size: 45px;
+}
+
+/* Contendeor de la linea negra */
+.line-black {
+  width: 100%;
+  height: 5px;
+  background: black;
+}
+
+/* Propiedaes de todas las noticias */
+div.cont-redac-msg {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* Ocupara para una imagen a la derecha */
+div.cont-redac-msg img.imagen-derecha {
+  float: right;
+  width: 200px;
+  height: 200px;
+}
+/* Texto para una noticia con imagena a la derecha */
+.cont-redac-msg {
+  width: auto;
+  padding-top: 30px;
+  font-size: 20px;
+}
+/* Recetear el partado del texto que no tome todo este es crucial no borrarlo */
+div.reset {
+  clear: both;
+}
+
+a.navegadores {
+  color: white;
+  text-decoration: none;
+}
+
+/* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
+/* El valor 768 es los pixeces cuando se activara */
+@media screen and (max-width: 900px) {
+  img.imagen-derecha {
+    display: none;
+  }
+  .contenedorGeneral {
+     margin-top: 50px; 
+  }
+}

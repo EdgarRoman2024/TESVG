@@ -1,0 +1,370 @@
+/* Link para importar el tipo de fuente */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+/* Formato general de nuestra pagina */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* font-family: cursive; */
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../images/images_BODY/boby_fondo.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position: center;
+  background-color: rgb(252, 252, 252);
+  /* width: 890px; */
+}
+
+/* ------------------------------------------------------ */
+/* Edicion de nuestra cabecera */
+header {
+  width: 100%;
+  height: 189px;
+  background: #060763;
+  -webkit-box-shadow: 0px 0px 20px -2px black;
+  box-shadow: 0px 0px 20px -2px black;
+}
+header:hover {
+  background: #060763;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+/* ------------------------------------------------------ */
+/* Edicion de nuestro contenedor */
+
+.content-menu div {
+  width: 100%;
+  /* height: 151px; */
+  height: 130px;
+  display: flex;
+  margin: auto;
+  background-color: white;
+  justify-content: center;
+}
+#cont-logos {
+  width: 1000px;
+  /* width: 890px; */
+  background-color: #e3e3e3;
+}
+
+#edu {
+  width: 215px;
+  height: 150px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 8px;
+  padding-right: 0;
+  cursor: pointer;
+}
+#tex {
+  width: 215px;
+  height: 150px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+#gobedo {
+  width: 210px;
+  height: 150px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  cursor: pointer;
+}
+#edomex {
+  width: 215px;
+  height: 150px;
+  padding-top: 30px;
+  padding-bottom: 65px;
+  padding-left: 5px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------ */
+/* Creacion de un segundo menu para cuando se aga screenshot */
+.content-menu h2 {
+  display: none;
+}
+/* Desactivar nuestro Check para que no aparezca  */
+#check {
+  display: none;
+}
+
+/* ------------------------------------------------------ */
+/* Edicion de nuestro navegador y los botones del menu */
+.menu {
+  position: absolute;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Edicion de nuestra lista */
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* Edicion de nuestros links de la lista */
+.menu ul li {
+  list-style: none;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+/* Creacion del sobreado al pasar por encia del link con el mause */
+.menu > ul > li:hover {
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 0px 0px black;
+  box-shadow: 0px 3px 0px 0px black;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+/* SubMenu */
+/* sustituimos .men ul li ul por .submenu para cambiar las dimensiones de la escuela */
+.submenu {
+  width: 200px;
+  position: absolute;
+  top: 49px;
+  left: 0;
+  flex-direction: column;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #000000;
+  background: #060763;
+  border-bottom: 3px solid #000000;
+  padding: 10px;
+  z-index: 1001;
+}
+
+.escuelas {
+  width: 450px;
+  position: absolute;
+  top: 49px;
+  left: 0;
+  flex-direction: column;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #000000;
+  background: #060763;
+  border-bottom: 3px solid #000000;
+  padding: 10px;
+  z-index: 1001;
+}
+
+/* Edicion los datos del submenu*/
+/* sustituimos .men ul li ul por .submenu para cambiar las dimensiones de la escuela */
+.submenu li {
+  padding: 10px 20px;
+  position: fixed;
+  border-bottom: 1px solid rgb(8, 2, 34);
+  font-weight: 100;
+  font-size: 15px;
+  z-index: 1001;
+}
+
+.escuelas li {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgb(8, 2, 34);
+  font-weight: 100;
+  font-size: 15px;
+  z-index: 1001;
+}
+.menu ul li ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li ul li:hover {
+  background: rgb(106, 114, 184);
+}
+
+/* ------------------------------------------------------ */
+/* Crea el sombreado desbaneciente cuando se va bajando de la pagina */
+.header2 {
+  position: fixed;
+  top: -131px;
+  background: rgba(39, 143, 204, 0.8);
+  z-index: 1001; /* NO ELIMINAR: esta linea es para poner ensima la cabeza que la galeria */
+}
+
+/* ------------------------------------------------------ */
+/* Desactivar nuestro icono del check */
+.icon-menu {
+  display: none;
+}
+
+/* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
+/* El valor 768 es los pixeces cuando se activara */
+@media screen and (max-width: 900px) {
+  /* Edicion de la cabeza de nuestra pagina minimizada */
+  header {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    z-index: 1001;
+  }
+
+  /* Edicion de la segunda cabeza de nuestra pagina minimizada la sombreada */
+  .header2 {
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    z-index: 1001;
+  }
+
+  /* ------------------------------------------------------ */
+  /* Edicion de el contenido de nuestro contenido en la pagina minimixada */
+  main {
+    margin-top: 80px;
+  }
+
+  /* Eliminamos nuestro logo */
+  .content-menu div {
+    display: none;
+  }
+
+  /* ------------------------------------------------------ */
+  /* Edicion de nuestro boton check */
+  .icon-menu {
+    display: block;
+    position: fixed;
+    color: white;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    font-size: 26px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    z-index: 1001;
+  }
+  /* Edicion del sombreado del check cuando pasamos el cursor por ensima */
+  .icon-menu:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 5px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    cursor: pointer;
+  }
+
+  /* Edicion de nuestro texto en la cabecera  */
+  .content-menu h2 {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+
+  /* ------------------------------------------------------ */
+  /* Edicion de nuestro menu de opciones a hora en listadas */
+  .menu {
+    width: 400px;
+    background: #192a56;
+    height: 100vh;
+    left: -120%;
+    top: 50px;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+    cursor: pointer;
+    /* Esta linea hace que pueda mover el menu */
+    overflow: scroll;
+  }
+
+  /* Enlistar las opciones */
+  .menu ul {   
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  /* Tamano del interlineado entre las opciones */
+  .menu ul li {
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .submenu {
+    top: 10px;
+    border: 0;
+    width: 75%;
+    margin: 0 0 15px 40px;
+    position: relative;
+    border-radius: 5px;
+    background: #273c75;
+    cursor: pointer;
+  }
+
+  .submenu li {
+    padding: 15px 35px;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 15px;
+  }
+
+  .escuelas {
+    top: 10px;
+    border: 0;
+    width: 90%;
+    margin: 0 0 10px 10px;
+    position: relative;
+    border-radius: 5px;
+    background: #273c75;
+    cursor: pointer;
+  }
+
+  .escuelas li {
+    width: 100%;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 15px;
+  }
+
+  .menu ul li ul li:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Eliminar las que no deceas que aparezcan en tus opciones */
+
+  #face,
+  #tw,
+  #inst,
+  #yout {
+    display: none;
+  }
+
+  /* Editar algunos atributos del texto */
+
+  /* ------------------------------------------------------ */
+  /* HAcer que aparezca al precionar el chcked */
+  #check:checked ~ .menu {
+    left: 0px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+  }
+}

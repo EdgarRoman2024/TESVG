@@ -1,0 +1,757 @@
+/* Link para importar el tipo de fuente */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+
+/* Formato general de nuestra pagina */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* font-family: cursive; */
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../images/images_BODY/boby_fondo.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position: center;
+  background-color: rgb(252, 252, 252);
+  /* width: 890px; */
+}
+
+/* ------------------------------------------------------ */
+/* Edicion de nuestra cabecera */
+header {
+  width: 100%;
+  height: 189px;
+  background: #060763;
+  -webkit-box-shadow: 0px 0px 20px -2px black;
+  box-shadow: 0px 0px 20px -2px black;
+  transition: all 2s;
+}
+
+header:hover {
+  background: #060763;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+/* ------------------------------------------------------ */
+/* Edicion de nuestro contenedor */
+
+/* Edicion de nuestra imagen */
+/* .content-menu img {
+  width: 890px;
+  height: 151px;
+  display: block;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 20px -2px black;
+  box-shadow: 0px 0px 20px -2px black;
+} */
+.content-menu div {
+  width: 100%;
+  /* height: 151px; */
+  height: 130px;
+  display: flex;
+  margin: auto;
+  background-color: white;
+  justify-content: center;
+}
+
+#cont-logos {
+  /* width: 1000px; */
+  /* width: 890px; */
+  background-color: #e3e3e3;
+}
+
+#edu {
+  width: 215px;
+  height: 150px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 8px;
+  padding-right: 0;
+  cursor: pointer;
+}
+
+#tex {
+  width: 215px;
+  height: 150px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#gobedo {
+  width: 210px;
+  height: 150px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  cursor: pointer;
+}
+
+#edomex {
+  width: 215px;
+  height: 150px;
+  padding-top: 30px;
+  padding-bottom: 65px;
+  padding-left: 5px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------ */
+/* Creacion de un segundo menu para cuando se aga screenshot */
+.content-menu h2 {
+  display: none;
+}
+
+/* Desactivar nuestro Check para que no aparezca  */
+#check {
+  display: none;
+}
+
+/* ------------------------------------------------------ */
+/* Edicion de nuestro navegador y los botones del menu */
+.menu {
+  position: absolute;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* NAvegadores generales, todas las "a" se encuentran aqui */
+a.navegadores {
+  color: white;
+  text-decoration: none;
+}
+
+/* Edicion de nuestra lista */
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* Edicion de nuestros links de la lista */
+.menu ul li {
+  list-style: none;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+#ing{
+  width: 400px;
+  text-align: center;
+  cursor: pointer;  
+}
+
+.contenedor-gris{
+  background-color: #e3e3e3;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+footer{
+  color: white;
+}
+
+.pie-de-pagina{
+  background-color: #060763;
+}
+.copy{
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 0rem;
+
+}
+.direccion, .contacto, .mapa{
+  display: inline-flex;
+  margin: 1rem;
+}
+.mapa{
+  padding: 1rem;
+  padding-top: 0;
+  display: inline-table;
+}
+.mapa > h4{
+  margin-bottom: 1rem;
+  padding-top: 0;
+}
+.direccion > p, .contacto > p, .mapa > p{
+  padding: 1rem;
+}
+/* Creacion del sobreado al pasar por encia del link con el mause */
+.menu>ul>li:hover {
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 0px 0px black;
+  box-shadow: 0px 3px 0px 0px black;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+/* SubMenu */
+/* sustituimos .men ul li ul por .submenu para cambiar las dimensiones de la escuela */
+.submenu {
+  width: 200px;
+  position: absolute;
+  top: 49px;
+  left: 0;
+  flex-direction: column;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #000000;
+  background: #060763;
+  border-bottom: 3px solid #000000;
+  padding: 10px;
+  z-index: 1001;
+}
+
+.escuelas {
+  width: 450px;
+  height: 1000%;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  flex-direction: column;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #000000;
+  background: #060763;
+  border-bottom: 3px solid #000000;
+  padding: 200px 0 0 0;
+  z-index: 1000;
+  overflow: auto;
+}
+
+/* Edicion los datos del submenu*/
+/* sustituimos .men ul li ul por .submenu para cambiar las dimensiones de la escuela */
+.submenu li {
+  padding: 10px 20px;
+  position: fixed;
+  border-bottom: 1px solid rgb(8, 2, 34);
+  font-weight: 100;
+  font-size: 14px;
+  z-index: 1001;
+}
+
+.escuelas li {
+  padding: 20px 20px;
+  border-bottom: 1px solid rgb(8, 2, 34);
+  font-weight: 70;
+  font-size: 14px;
+  z-index: 1001;
+}
+
+.menu ul li ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li ul li:hover {
+  background: rgb(106, 114, 184);
+}
+
+/* ------------------------------------------------------ */
+/* Crea el sombreado desbaneciente cuando se va bajando de la pagina */
+.header2 {
+  position: fixed;
+  top: -131px;
+  background: rgba(39, 143, 204, 0.8);
+  z-index: 1001;
+  transition: all 2s;
+  /* NO ELIMINAR: esta linea es para poner ensima la cabeza que la galeria */
+}
+
+/* ------------------------------------------------------ */
+/* Desactivar nuestro icono del check */
+.icon-menu {
+  display: none;
+}
+
+/* Fondo de mi pagina*/
+/* main {
+  margin: auto;
+  width: 890px;
+  height: 3350px;
+  height: auto; /* eliminar esta linea
+  background-color: #e3e3e3;
+  margin-top: 0;
+} */
+
+main {
+  width: 90%;
+  /*width: 890px; */
+  max-width: 1000px;
+  margin: auto;
+  background: rgb(275, 285, 254);
+  padding: 0px;
+  margin-top: 0px;
+}
+
+/* main img {
+  width: 100%;
+  margin-top: 100px;
+} */
+
+/* Separador linea azul1 */
+main h2 {
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+main p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+/*Alineacion de iconos azules*/
+.cont-circul {
+  padding-left: 50px;
+}
+
+main div a {
+  padding: 10px;
+}
+
+.circulos-azules {
+  margin: 0 auto;
+  max-width: 13%;
+  height: 80%;
+  cursor: pointer;
+}
+
+.comer {
+  color: #000000;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* Seccion donde estan todos los elemnetos de las secciones */
+
+/* Propiedades generales de todas las franjas azul del titulo */
+.contenedorgeneral {
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+/* Letras de enmedio de todas las franjas azules */
+.titulos {
+  background: #060763;
+  text-align: center;
+  text-decoration: solid;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  width: auto;
+  padding: 5px;
+}
+
+/* Propiedaes de todas las noticias */
+div.noticias {
+  width: 90%;
+  margin: 20px auto;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+}
+
+/* Ocupar para una ina imagen a la izquierda */
+div.noticias img.imagen-izquierda {
+  float:left;
+  /* margin-right: 50px; */
+  width: 300px;
+  height: 300px;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+/* Ocupara para una imagen a la derecha */
+div.noticias img.imagen-derecha {
+  float: right;
+  /* margin-left: 50px; */
+  width: 300px;
+  height: 300px;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* Tipo de fuente general para los textox de las noticias */
+@font-face {
+  font-family: ShitHappensTriald;
+  src: url(fuentes/ShitHappensTriald.otf);
+}
+
+/* Texto para una noticia con imagen a la izquierda */
+.text1 {
+  width: auto;
+  margin-top: 20px;
+  /* padding-left: 100px; */
+  text-align: center;
+  text-decoration: solid;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Texto para una noticia con imagena a la derecha */
+.text2 {
+  width: auto;
+  margin-top: 20px;
+  /* padding-left: 100px; */
+  text-align: center;
+  text-decoration: solid;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Recetear el partado del texto que no tome todo este es crucial no borrarlo */
+div.reset {
+  clear: both;
+}
+
+/* Propiedades de todos los botones generales */
+.btn-contorno {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background: rgb(8, 117, 117);
+  border-radius: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: #000000;
+  background: rgb(177, 219, 219);
+  border-radius: 80px;
+  border: outset thin;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 14px;
+  transition: all .5s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
+/* El valor 768 es los pixeces cuando se activara */
+@media screen and (max-width: 900px) {
+  /* 18102022 Edgar Roman */
+  .container{
+    padding: 0.3rem;
+}
+/* Cabios del 19/10/2022 */
+
+/* Fin del cambio */
+input#check{ 
+    visibility:hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+.toggle-button {
+    padding: 1.8rem;
+    display:block;
+    width:50px;
+    height:50px;
+    /* border:2px solid rgb(255, 255, 255); */
+    position:relative;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.toggle-button:before,
+.toggle-button:after {
+    position: absolute;
+    display: block;
+    content: " ";
+    width: calc(100% / 2);
+    box-sizing: border-box;
+    left: calc(100% / 4);
+    transition: all 0.2s ease-out;
+}
+
+.toggle-button:before {
+    top: calc(100% / 4);
+    height: calc(100% / 4);
+    border-top: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.toggle-button:after {
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    bottom: calc(100% / 3.2);
+}
+
+input#check:checked+.toggle-button:before,
+input#check:checked+.toggle-button:after {
+    top: calc(100% / 2);
+    height: 3px;
+    border-bottom: 0;
+}
+
+input#check:checked+.toggle-button:before {
+    transform: rotate(45deg);
+}
+
+input#check:checked+.toggle-button:after {
+    transform: rotate(-45deg);
+}
+
+.abrir,
+.cerrar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-indent: -9999px;
+}
+
+.abrir {
+    display: block;
+}
+
+.cerrar {
+    display: none;
+}
+
+input#check:checked+.toggle-button .abrir {
+    display: none;
+}
+
+input#check:checked+.toggle-button .cerrar {
+    display: block;
+}
+
+/* Fin de cambios Edgar Roman */
+  /* Edicion de la cabeza de nuestra pagina minimizada */
+  header {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    z-index: 1001;
+    transition: all 1s;
+
+  }
+
+  /* Edicion de la segunda cabeza de nuestra pagina minimizada la sombreada */
+  .header2 {
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    z-index: 1001;
+    transition: all 1s;
+  }
+
+  /* ------------------------------------------------------ */
+  /* Edicion de el contenido de nuestro contenido en la pagina minimixada */
+  main {
+    margin-top: 80px;
+  }
+
+  /* Eliminamos nuestro logo */
+  .content-menu div {
+    display: none;
+  }
+
+  .btn1-contorno {
+    margin: auto;
+    width: 190px;
+    margin-top: 20px;
+  }
+
+  /* .img_body_uno {
+    width: 160px;
+    height: 170px;
+    margin-top: -20px;
+    margin-left: 40px;
+  } */
+
+
+  /* ------------------------------------------------------ */
+  /* Edicion de nuestro boton check */
+  .icon-menu {
+    display: block;
+    position: fixed;
+    color: white;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    font-size: 26px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    z-index: 1001;
+  }
+
+  /* Edicion del sombreado del check cuando pasamos el cursor por ensima */
+  .icon-menu:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 5px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    cursor: pointer;
+  }
+
+  /* Edicion de nuestro texto en la cabecera  */
+  .content-menu h2 {
+    display: block;
+    position: absolute;
+    bottom: 3vh;
+    /* Esquina inferior derecha */
+    right: 3vh;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+
+  /* ------------------------------------------------------ */
+  /* Edicion de nuestro menu de opciones a hora en listadas */
+  .menu {
+    /* width: auto; */
+    /* position: fixed;
+    top: 50px;
+    background: #192a56;
+    left: 0;
+    height: 100%;
+    transition: 1s;
+    width: 0;
+    overflow: hidden; */
+    width: 250px;
+    background: #192a56;
+    height: 100vh;
+    left: -120%;
+    top: 50px;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+    cursor: pointer;
+    /* Esta linea hace que pueda mover el menu */
+    /* overflow: scroll; */
+  }
+
+  /* Enlistar las opciones */
+  .menu ul {
+    /*  -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column; */
+    /*  display: block;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+    background: #34495e;
+    color: #fff; */
+    flex-direction: column;
+    padding: 20px;
+    /* text-align: center; */
+  }
+
+  /* Tamano del interlineado entre las opciones */
+  .menu ul li {
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .submenu {
+    top: 10px;
+    border: 0;
+    width: 75%;
+    margin: 0 0 15px 40px;
+    position: relative;
+    border-radius: 5px;
+    background: #273c75;
+    cursor: pointer;
+  }
+
+  .submenu li {
+    padding: 15px 35px;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 15px;
+  }
+
+  .escuelas {
+    top: 10px;
+    border: 0;
+    width: 90%;
+    margin: 0 0 10px 10px;
+    position: relative;
+    border-radius: 1px;
+    background: #273c75;
+    cursor: pointer;
+  }
+
+  .escuelas li {
+    width: 100%;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 15px;
+  }
+
+  .menu ul li ul li:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Eliminar las que no deceas que aparezcan en tus opciones */
+  #face,
+  #tw,
+  #inst,
+  #yout {
+    display: none;
+  }
+
+  /* Editar algunos atributos del texto */
+
+  /* ------------------------------------------------------ */
+  /* Hacer que aparezca al precionar el chcked */
+  #check:checked~.menu {
+    left: 0px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+  }
+
+
+  .stdem{
+    font-size: 15px;
+    width: 290px;
+    height: 30px;
+    text-align: right;
+    }
+
+    .stdem > a{
+      text-decoration: none;
+      color: white;
+      }
+}
