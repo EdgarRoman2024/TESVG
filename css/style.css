@@ -59,7 +59,7 @@ header:hover {
   display: flex;
   margin: auto;
   background-color: white;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #cont-logos {
@@ -69,43 +69,87 @@ header:hover {
 }
 
 #edu {
-  width: 215px;
-  height: 150px;
-  padding-top: 40px;
-  padding-bottom: 60px;
+  width: 205px;
+  height: 89px;
+  padding-top: 20px;
+  padding-bottom: 24px;
   padding-left: 8px;
-  padding-right: 0;
+  padding-right: 9px;
+  box-shadow: 0px 0px 1px 1px rgb(0 0 0);
+  margin: 10% 0% 0% 0%;
   cursor: pointer;
+  border-radius: 5%;
+  background-color: rgba(0, 26, 255, 0.158);
+}
+#edu:hover{
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 0px 0px black;
+  box-shadow: 1px 2px 2px 2px rgb(10, 0, 145);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 #tex {
-  width: 215px;
-  height: 150px;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  padding-left: 20px;
+  width: 205px;
+  height: 89px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 9px;
   padding-right: 10px;
+  border-radius: 5%;
+  box-shadow: 0px 0px 1px 1px rgb(0 0 0);
+  margin: 10% 0% 0% 0%;
   cursor: pointer;
+  background-color: rgba(0, 26, 255, 0.158);
+}
+#tex:hover{
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 0px 0px black;
+  box-shadow: 1px 2px 2px 2px rgb(10, 0, 145);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 #gobedo {
-  width: 210px;
-  height: 150px;
-  padding-top: 25px;
-  padding-bottom: 50px;
-  padding-left: 35px;
-  padding-right: 35px;
+  width: 205px;
+  height: 89px;
+  padding-top: 6px;
+  padding-bottom: 18px;
+  padding-left: 33px;
+  padding-right: 34px;
+  border-radius: 5%;
+  box-shadow: 0px 0px 1px 1px rgb(0 0 0);
+  margin: 10% 0% 0% 0%;
   cursor: pointer;
+  background-color: rgba(0, 26, 255, 0.158);
+}
+#gobedo:hover{
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 0px 0px black;
+  box-shadow: 1px 2px 2px 2px rgb(10, 0, 145);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 #edomex {
-  width: 215px;
-  height: 150px;
-  padding-top: 30px;
-  padding-bottom: 65px;
-  padding-left: 5px;
-  padding-right: 10px;
+  width: 205px;
+  height: 89px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 11px;
+  padding-right: 16px;
+  border-radius: 5%;
+  box-shadow: 0px 0px 1px 1px rgb(0 0 0);
+  margin: 10% 0% 0% 0%;
   cursor: pointer;
+  background-color: rgba(0, 26, 255, 0.158);
+}
+#edomex:hover{
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 0px 0px black;
+  box-shadow: 1px 2px 2px 2px rgb(10, 0, 145);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 /* ------------------------------------------------------ */
@@ -460,32 +504,6 @@ div.reset {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.scroll-top-btn{
-  position: fixed;
-  z-index: 999;
-  bottom: 1vh;
-  right: 1vw;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-  font-size: 2rem;
-  font-weight: bold;
-  background-color: #060763;
-  color: #fff;
-  cursor: pointer;
-  outline: 0;
-  border: 0;
-  transition: all 0.3s ease-out;
-}
-
-.scroll-top-btn:hover{
-  background-color: #fff;
-  color: #060763;
-}
-.hidden{
-  visibility: hidden;
-  opacity: 0;
-}
 
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
