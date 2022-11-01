@@ -14,7 +14,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(../images/images_BODY/boby_fondo.jpg);
+  /* background-image: url(../images/images_BODY/boby_fondo.jpg); */
   background-attachment: scroll;
   background-repeat: no-repeat;
   /* background-size: contain; */
@@ -158,48 +158,58 @@ a.navegadores {
   position: relative;
 }
 
-#ing{
+#ing {
   width: 400px;
   text-align: center;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
-.contenedor-gris{
+.contenedor-gris {
   background-color: #e3e3e3;
   padding: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 
 }
-footer{
+
+footer {
   color: white;
 }
 
-.pie-de-pagina{
+.pie-de-pagina {
   background-color: #060763;
 }
-.copy{
+
+.copy {
   text-align: center;
   padding-bottom: 2rem;
   padding-top: 0rem;
 
 }
-.direccion, .contacto, .mapa{
+
+.direccion,
+.contacto,
+.mapa {
   display: inline-flex;
-  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
-.mapa{
+
+.mapa {
   padding: 1rem;
   padding-top: 0;
   display: inline-table;
 }
-.mapa > h4{
+
+.mapa>h4 {
   margin-bottom: 1rem;
   padding-top: 0;
 }
-.direccion > p, .contacto > p, .mapa > p{
+
+.texto {
   padding: 1rem;
 }
+
 /* Creacion del sobreado al pasar por encia del link con el mause */
 .menu>ul>li:hover {
   background: rgba(0, 0, 0, 0.1);
@@ -297,11 +307,11 @@ footer{
 } */
 
 main {
-  width: 90%;
+  /* width: 90%; */
   /*width: 890px; */
-  max-width: 1000px;
+  /* max-width: 1000px; */
   margin: auto;
-  background: rgb(275, 285, 254);
+  /* background: rgb(275, 285, 254); */
   padding: 0px;
   margin-top: 0px;
 }
@@ -314,7 +324,7 @@ main {
 /* Separador linea azul1 */
 main h2 {
   font-size: 30px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -374,7 +384,7 @@ div.noticias {
 
 /* Ocupar para una ina imagen a la izquierda */
 div.noticias img.imagen-izquierda {
-  float:left;
+  float: left;
   /* margin-right: 50px; */
   width: 300px;
   height: 300px;
@@ -460,7 +470,7 @@ div.reset {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.scroll-top-btn{
+.scroll-top-btn {
   position: fixed;
   z-index: 999;
   bottom: 1vh;
@@ -478,44 +488,50 @@ div.reset {
   transition: all 0.3s ease-out;
 }
 
-.scroll-top-btn:hover{
+.scroll-top-btn:hover {
   background-color: #fff;
   color: #060763;
 }
-.hidden{
+
+.hidden {
   visibility: hidden;
   opacity: 0;
 }
 
+
+
+
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
 @media screen and (max-width: 900px) {
-  /* 18102022 Edgar Roman */
-  .container{
-    padding: 0.3rem;
-}
-/* Cabios del 19/10/2022 */
 
-/* Fin del cambio */
-input#check{ 
-    visibility:hidden;
+  /* 18102022 Edgar Roman */
+  .container {
+    padding: 0.3rem;
+  }
+
+  /* Cabios del 19/10/2022 */
+
+  /* Fin del cambio */
+  input#check {
+    visibility: hidden;
     position: absolute;
     top: -9999px;
-}
+  }
 
-.toggle-button {
+  .toggle-button {
     padding: 1.8rem;
-    display:block;
-    width:50px;
-    height:50px;
+    display: block;
+    width: 50px;
+    height: 50px;
     /* border:2px solid rgb(255, 255, 255); */
-    position:relative;
+    position: relative;
     cursor: pointer;
     box-sizing: border-box;
-}
+  }
 
-.toggle-button:before,
-.toggle-button:after {
+  .toggle-button:before,
+  .toggle-button:after {
     position: absolute;
     display: block;
     content: " ";
@@ -523,64 +539,64 @@ input#check{
     box-sizing: border-box;
     left: calc(100% / 4);
     transition: all 0.2s ease-out;
-}
+  }
 
-.toggle-button:before {
+  .toggle-button:before {
     top: calc(100% / 4);
     height: calc(100% / 4);
     border-top: 3px solid rgb(255, 255, 255);
     border-bottom: 3px solid rgb(255, 255, 255);
     background-color: transparent;
-}
+  }
 
-.toggle-button:after {
+  .toggle-button:after {
     height: 3px;
     background-color: rgb(255, 255, 255);
     bottom: calc(100% / 3.2);
-}
+  }
 
-input#check:checked+.toggle-button:before,
-input#check:checked+.toggle-button:after {
+  input#check:checked+.toggle-button:before,
+  input#check:checked+.toggle-button:after {
     top: calc(100% / 2);
     height: 3px;
     border-bottom: 0;
-}
+  }
 
-input#check:checked+.toggle-button:before {
+  input#check:checked+.toggle-button:before {
     transform: rotate(45deg);
-}
+  }
 
-input#check:checked+.toggle-button:after {
+  input#check:checked+.toggle-button:after {
     transform: rotate(-45deg);
-}
+  }
 
-.abrir,
-.cerrar {
+  .abrir,
+  .cerrar {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     text-indent: -9999px;
-}
+  }
 
-.abrir {
+  .abrir {
     display: block;
-}
+  }
 
-.cerrar {
+  .cerrar {
     display: none;
-}
+  }
 
-input#check:checked+.toggle-button .abrir {
+  input#check:checked+.toggle-button .abrir {
     display: none;
-}
+  }
 
-input#check:checked+.toggle-button .cerrar {
+  input#check:checked+.toggle-button .cerrar {
     display: block;
-}
+  }
 
-/* Fin de cambios Edgar Roman */
+  /* Fin de cambios Edgar Roman */
   /* Edicion de la cabeza de nuestra pagina minimizada */
   header {
     position: fixed;
@@ -769,15 +785,15 @@ input#check:checked+.toggle-button .cerrar {
   }
 
 
-  .stdem{
+  .stdem {
     font-size: 15px;
     width: 290px;
     height: 30px;
     text-align: right;
-    }
+  }
 
-    .stdem > a{
-      text-decoration: none;
-      color: white;
-      }
+  .stdem>a {
+    text-decoration: none;
+    color: white;
+  }
 }

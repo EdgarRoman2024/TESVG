@@ -10,8 +10,12 @@
   <!-- <link rel="stylesheet" href="EstilosGeneral.css" /> -->
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="Estilo-Ingenierias.css" />
+  <link rel="stylesheet" href="../css/prueba.css">
   <!-- Importar los iconos peque;os del menu -->
   <link rel="stylesheet" href="../iconos/css/fontello.css" />
+  <!-- Boostrap Prueba -->
+  <link rel="stylesheet" href="../b/css/bootstrap.css">
+  <script src="../b/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -20,8 +24,7 @@
     <div class="content-menu">
       <!-- Creacion de nuestro boton para ociones cuando se haga mas pequeña la ventana -->
       <input id="check" type="checkbox" />
-      <label for="check" class="toggle-button">
-      </label>
+      <label for="check" class="toggle-button"></label>
 
 
       <!-- Etiqueta que aparecera cuando se haga mas peqeuña la ventana -->
@@ -170,102 +173,429 @@
     </div>
   </header>
   <main>
-    <!-- ---------------------------------------------------------------------------------------- -->
-    <!-- Apartado Sobre Todas las ingenierias-->
-    <!-- 1 Ingenieria en sistemas computacionales -->
-    <div class="cont-general">
-      <div class="cont-titulo">
-        <h1 class="titulo-principal">Ingenierias</h1>
-      </div>
-      <!-- apartado de la barra azul -->
-      <div class="Cont-subti-ing">
-        <h3 class="subt-ing">Ingenieria en Sistemas Computacionales</h3>
-      </div>
-      <!-- Apartado de la imagen -->
-      <!-- <div class="cont-images"> -->
-      <div class="container-img">
-        <img src="../images/img-ingenierias/ing_sistema.jpg" id="img1">
-        <img src="../images/img-ingenierias/ing_sistema2.jpg" id="img2">
-        <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3">
-      </div>
+    <section class="home">
+      <article class="hero-image" style="--hero-image:url(/images/img-ingenierias/ing.jpg); --hero-attachment:fixed;">
+        <aside class="hero-image-opacity" style="--hero-opacity-color: rgba(0,0,0,0.5)">
+          <div class="hero-image-content">
+            <h2 class="hero-image-title" style="--hero-text-color: #fff">Ingenierías</h2>
+          </div>
+        </aside>
+      </article>
+    </section>
 
-      <!-- </div> -->
-      <!-- Apartado de todos los tecnologicos -->
-      <div class="cont-todos-tec">
-        <h3 class="tecnologicos"><a class="navegar-tec" href="https://tesvg.edomex.gob.mx/sistemas_computacionales" target="_blank"> Tecnologico de Estudios Superiores de Villa
-            Guerrero</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Valle de
-            Bravo</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Ecatepec</a>
-        </h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de
-            Tianguistenco</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de .........</a>
-        </h3>
+    <section class="sedes">
+      <div class="job">
+        <h2>¿TE INTERESA ALGUNA CARRERA?</h2>
+      <p>Busca la carrera que te interese y te mostrar las sedes en que<br>esta se imparte</p>
       </div>
-    </div>
+      <div class="dudas">
+        <h2>¿TIENES ALGUNA DUDA?</h2>
+      <P>Presiona los links, te llevaran a la sede que buscas</P>
+      </div>
+      <!-- <div class="dudas">
+        <h2>BUSCA TU SEDE</h2>
+      <P>EL TESVG ES MEJOR</P>
+      </div> -->
+    </section>
 
-    <!-- 1 Ingenieria en Electronica -->
-    <div class=".cont-general">
-      <!-- apartado de la barra azul -->
-      <div class="Cont-subti-ing">
-        <h3 class="subt-ing">Ingenieria en Electronica</h3>
-      </div>
-      <!-- Apartado de la imagen -->
-      <!-- <div class="cont-images"> -->
-      <div class="container-img-electronic">
-        <img src="../images/img-ingenierias/ing_electronic.jpg" id="img1">
-        <img src="../images/img-ingenierias/ing-electronic2.jpg" id="img2">
-      </div>
-
-      <!-- </div> -->
-      <!-- Apartado de todos los tecnologicos -->
-      <div class="cont-todos-tec">
-        <h3 class="tecnologicos"><a class="navegar-tec" href="https://tesvg.edomex.gob.mx/electronica" target="_blank"> Tecnologico de Estudios Superiores de Villa
-            Guerrero</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Valle de
-            Bravo</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Ecatepec</a>
-        </h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de
-            Tianguistenco</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de .........</a>
-        </h3>
-      </div>
-    </div>
-
-    <!-- 1 Ingenieria en Electronica -->
-    <div class=".cont-general">
-      <!-- apartado de la barra azul -->
-      <div class="Cont-subti-ing">
-        <h3 class="subt-ing">Ingenieria en Innovacion Agricola Sustentable</h3>
-      </div>
-      <!-- Apartado de la imagen -->
-      <!-- <div class="cont-images"> -->
-        <div class="container-img-electronic">
-          <img src="../images/img-ingenierias/ing_agricol_suste.jpg" id="img1">
-          <img src="../images/img-ingenierias/ing_agricol_suste2.jpg" id="img2">
+    <section class="perfiles">
+      <div class="accordion" id="accordionExample">
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Ingenieria en sistemas computacionales
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ing_sistema.jpg" id="img1">
+                <img src="../images/img-ingenierias/ing_sistema2.jpg" id="img2">
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="cont-todos-tec">
+                <h5 class="tecnologicos"><a class="navegar-tec"
+                    href="https://tesvg.edomex.gob.mx/sistemas_computacionales" target="_blank">Tecnologico de Estudios
+                    Superiores de Villa
+                    Guerrero</a></h5>
+                <h5 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Valle de
+                    Bravo</a></h5>
+                <h5 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de
+                    Ecatepec</a>
+                </h5>
+                <h5 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de
+                    Tianguistenco</a></h5>
+                <h5 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de
+                    .........</a>
+                </h5>
+              </div>
+            </div>
+          </div>
         </div>
-      <!-- </div> -->
-      <!-- Apartado de todos los tecnologicos -->
-      <div class="cont-todos-tec">
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Villa
-            Guerrero</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Valle de
-            Bravo</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Ecatepec</a>
-        </h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de
-            Tianguistenco</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de .........</a>
-        </h3>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              Accordion Item #4
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              Accordion Item #5
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+              Accordion Item #6
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+              Accordion Item #7
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+              Accordion Item #8
+            </button>
+          </h2>
+          <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading9">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+              Accordion Item #9
+            </button>
+          </h2>
+          <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
+      <div class="accordion" id="accordionExample">
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+              aria-expanded="true" aria-controls="collapse1">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading10">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+              Accordion Item #10
+            </button>
+          </h2>
+          <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading11">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+              Accordion Item #11
+            </button>
+          </h2>
+          <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading12">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+              Accordion Item #12
+            </button>
+          </h2>
+          <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading13">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+              Accordion Item #13
+            </button>
+          </h2>
+          <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading14">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+              Accordion Item #14
+            </button>
+          </h2>
+          <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading15">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+              Accordion Item #15
+            </button>
+          </h2>
+          <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading16">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+              Accordion Item #16
+            </button>
+          </h2>
+          <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- Division -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading17">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+              Accordion Item #17
+            </button>
+          </h2>
+          <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section >
+      <h2>¿QUIERES MAS INFORMACION?</h2>
+    </section>
   </main>
+  <footer>
+    <div class="pie-de-pagina">
+      <section class="direccion">
+        <h4>Dirección</h4>
+        <p class="texto">Avenida Ing. Víctor Bravo Ahuja No. 125 <br> Esquina Calzada Tecnológico, C.P. 68030</p>
+      </section>
+      <section class="contacto">
+        <h4>Contacto</h4>
+        <p class="texto">Email: direccion@itoaxaca.edu.mx <br>
+          Tel: (951) 501 50 16</p>
+      </section>
+      <section class="mapa">
+        <h4>Localización</h4>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481726.8875365654!2d-99.42381763554063!3d19.39116683806894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1666824355043!5m2!1ses-419!2smx"
+          width="490" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+      <br>
+      <section class="copy"><small>© Copyright 2020 TecNM - Todos los Derechos Reservados</small></section>
+    </div>
+  </footer>
+
+  <button class="scroll-top-btn hidden">&#11014;</button>
+
   <script src="../js/jquery.js"></script>
   <script src="../js/script.js"></script>
   <script src="../js/main.js"></script>
+  <script src="../js/acordion.js"></script>
 </body>
 
 </html>
