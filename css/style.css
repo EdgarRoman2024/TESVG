@@ -497,6 +497,18 @@ div.reset {
   visibility: hidden;
   opacity: 0;
 }
+/* iconos de las ingenierias */
+.icon > svg {
+  fill: #000000;
+  align-self: center;
+}
+.icon{
+  padding: 1rem;
+}
+.icon > h4{
+  font-weight: bold;
+  color: #000000;
+}
 
 
 

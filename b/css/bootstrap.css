@@ -3667,11 +3667,13 @@ textarea.form-control-lg {
 .accordion-button:not(.collapsed) {
   color: #fff;
   background-color: var(--bs-accordion-active-bg);
-  /* box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color); */
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+  
 }
 .accordion-button:not(.collapsed)::after {
   background-image: var(--bs-accordion-btn-active-icon);
   transform: var(--bs-accordion-btn-icon-transform);
+  
 }
 .accordion-button::after {
   flex-shrink: 0;
@@ -3683,6 +3685,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-size: var(--bs-accordion-btn-icon-width);
   transition: var(--bs-accordion-btn-icon-transition);
+  
 }
 @media (prefers-reduced-motion: reduce) {
   .accordion-button::after {

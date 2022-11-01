@@ -55,6 +55,25 @@
   
  }
 
+ .summary > h5{
+  border-bottom: 2px solid #000;
+  padding-bottom: 1rem;
+ }
+
+ .summary > p{
+  text-align: justify;
+  
+   }
+  .summary{
+    /* background-color: red; */
+    /* border-radius: 1rem; */
+    margin: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+ 
+  }
+
  @media screen and (max-width: 900px) {
   .perfiles{
     width: auto;
