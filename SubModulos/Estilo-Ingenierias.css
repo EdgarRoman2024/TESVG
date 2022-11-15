@@ -85,7 +85,7 @@ a.navegadores {
 .navegar-tec {
   text-decoration: none;
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: center;
 }
 
