@@ -33,6 +33,7 @@
 .hero-image-title {
   color: var(--hero-text-color);
   font-size: 7.5vw;
+  filter: drop-shadow(9px 2px 6px #000000);
 }
  .sedes{
   /* text-align: center; */
@@ -47,6 +48,8 @@
   /* padding: 1rem; */
   margin: 2rem;
   width: 50%;
+  /* background-color: rgb(226, 226, 226);
+  box-shadow: 1px 1px 10px 3px rgb(2, 120, 255); */
  }
  .dudas{
   /* padding: 1rem; */
