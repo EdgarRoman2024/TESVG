@@ -123,7 +123,7 @@ a.navegadores {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: var(--hero-attachment);
 }
 
 .hero-image-opacity {
@@ -140,6 +140,11 @@ a.navegadores {
   color: var(--hero-text-color);
   font-size: 7.5vw;
   filter: drop-shadow(9px 2px 6px #000000);
+}
+
+.hero-image-title {
+  color: var(--hero-text-color);
+  font-size: 7.5vw;
 }
 
 .sedes {
