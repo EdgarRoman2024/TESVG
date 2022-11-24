@@ -114,13 +114,16 @@ a.navegadores {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
+.perfiles-doctorado{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .accordion {
   padding: 1.5rem;
   /* background-color: rgba(39, 143, 204, 0.8); */
 }
-
-
 /* IMAGEN DE INGENIERIAS */
 .hero-image {
   background-image: var(--hero-image);
