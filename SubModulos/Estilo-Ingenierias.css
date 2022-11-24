@@ -164,13 +164,13 @@ a.navegadores {
   width: 50%;
   /* background-color: rgb(226, 226, 226);
   box-shadow: 1px 1px 10px 3px rgb(2, 120, 255); */
+  border-left: #060763 solid thick;
 }
-
 .dudas {
   /* padding: 1rem; */
   margin: 2rem;
   width: 50%;
-
+  border-left: #060763 solid thick;
 }
 
 .summary>h5 {

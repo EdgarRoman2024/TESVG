@@ -9,7 +9,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* font-family: cursive; */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
 }
 /* Barra scroll */
 .menu::-webkit-scrollbar{
@@ -388,10 +388,10 @@ main div a {
   background: #060763;
   text-align: center;
   text-decoration: solid;
-  border-top-left-radius: 80px;
-  border-bottom-right-radius: 80px;
+  border-radius: 80px;
   width: auto;
-  padding: 5px;
+  padding: .75rem;
+  font-size: 20px;
 }
 
 /* Propiedaes de todas las noticias */
