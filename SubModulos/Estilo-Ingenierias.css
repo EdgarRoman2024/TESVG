@@ -338,29 +338,22 @@ a.navegadores {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-
   .accordion {
     padding-bottom: 0;
     padding-top: 1rem;
   }
-
   .sedes {
     padding-bottom: 0;
     padding: 0;
-    margin: 0;
     display: block;
-    /* margin: 1rem; */
     text-align: center;
-    /* background-color: red; */
   }
-
   .job {
     padding-right: 1rem;
     margin: 1rem;
     width: 100%;
     margin-bottom: 3rem;
   }
-
   .dudas {
     padding-right: 1rem;
     margin: 1rem;
