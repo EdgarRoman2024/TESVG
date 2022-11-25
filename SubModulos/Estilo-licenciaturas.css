@@ -107,9 +107,11 @@ a.navegadores {
 /* Acordion */
 
 .perfiles {
-  width: auto;
-  display: grid;
+  width:auto;
+  display: block;
   grid-template-columns: repeat(2, 1fr);
+  padding: 20%;
+  margin: -20% 0% -15% 0%;
 }
 
 .accordion {
