@@ -536,59 +536,6 @@ div.reset {
   color: #000000;
 }
 
-/* IMAGEN DE FONDO INICIO */
-.hero-image-inicio {
-  background-image: var(--hero-image-inicio);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: var(--hero-attachment-inicio);
-}
-
-.hero-image-opacity-inicio {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: var(--hero-opacity-color-inicio);
-}
-
-.hero-image-content-inicio {
-  color: var(--hero-text-color-inicio);
-  font-size: 3vw;
-  filter: drop-shadow(9px 2px 6px #000000);
-
-}
-
-.hero-image-title-inicio {
-  color: var(--hero-text-color-inicio);
-  font-size: 4vw;
-  width: 70%;
-  margin: 0 auto;
-  padding: 1rem;
-}
-.texto-image{
-  color: var(--hero-text-color-inicio);
-  width: 45%;
-  display: inline-block;
-  margin: 1rem;
-  font-size: 3vh;
-  background-color: rgba(255, 255, 255, .2);
-  padding: 2rem;
-}
-
-.hero-image-content-inicio h6 {
-  color: #fff;
-  padding: 1rem;
-  font-size: 2vw;
-  border-bottom: #fff solid thin;
-  width: 30%;
-  margin: 0 auto;
-
-}
-
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
 @media screen and (max-width: 900px) {
@@ -884,55 +831,4 @@ div.reset {
     text-decoration: none;
     color: white;
   }
-  /* IMAGEN DE FONDO INICIO */
-.hero-image-inicio {
-  background-image: var(--hero-image-inicio);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: var(--hero-attachment-inicio);
-}
-
-.hero-image-opacity-inicio {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: var(--hero-opacity-color-inicio);
-}
-
-.hero-image-content-inicio {
-  color: var(--hero-text-color-inicio);
-  font-size: 3vw;
-  filter: drop-shadow(9px 2px 6px #000000);
-
-}
-
-.hero-image-title-inicio {
-  color: var(--hero-text-color-inicio);
-  font-size: 6vw;
-  width: 90%;
-  margin: 0 auto;
-  padding: 1rem;
-}
-.texto-image{
-  color: var(--hero-text-color-inicio);
-  width: 90%;
-  display: inline-block;
-  margin: 1rem;
-  font-size: 2.3vh;
-  background-color: rgba(255, 255, 255, .2);
-  padding: 1rem;
-}
-
-.hero-image-content-inicio h6 {
-  color: #fff;
-  padding: 1rem;
-  font-size: 5vw;
-  border-bottom: #fff solid thin;
-  width: 50%;
-  margin: 0 auto;
-}
 }
