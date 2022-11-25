@@ -62,6 +62,10 @@ a.navegadores {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.container-img-posgrado{
+  width: 100%;
+}
+
 .container-img-electronic {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -99,7 +103,6 @@ a.navegadores {
 }
 
 .formulario-dudas {
-  width: 100%;
   text-align: center;
   margin: 2rem;
 }
@@ -111,13 +114,16 @@ a.navegadores {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
+.perfiles-doctorado{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .accordion {
   padding: 1.5rem;
   /* background-color: rgba(39, 143, 204, 0.8); */
 }
-
-
 /* IMAGEN DE INGENIERIAS */
 .hero-image {
   background-image: var(--hero-image);
@@ -150,7 +156,7 @@ a.navegadores {
 
 .sedes {
   /* text-align: center; */
-  padding: 1rem;
+  /* padding: 1rem; */
   /* font-family: Arial, Helvetica, sans-serif; */
   padding-bottom: 0;
   display: flex;
@@ -323,6 +329,9 @@ a.navegadores {
 
 
 @media screen and (max-width: 900px) {
+  body{
+    overflow-x: hidden;
+  }
   .cont-general {
     margin-top: 50px;
   }
@@ -339,28 +348,28 @@ a.navegadores {
   }
 
   .sedes {
-    /* text-align: center; */
-    padding: 1rem;
-    /* font-family: Arial, Helvetica, sans-serif; */
     padding-bottom: 0;
+    padding: 0;
     display: block;
-    margin: 1rem;
     text-align: center;
   }
 
   .job {
-    /* padding: 1rem; */
-    margin: 2rem;
+    padding-right: 1rem;
+    margin: 1rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
 
   .dudas {
-    /* padding: 1rem; */
-    margin: 2rem;
+    padding-right: 1rem;
+    margin: 1rem;
     width: 100%;
   }
   .contact-form {
     display: block;
   }
-
+  .btn-enviar{
+    width: 100%;
+  }
 }
