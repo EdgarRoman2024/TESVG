@@ -336,10 +336,10 @@ main {
   /* width: 90%; */
   /*width: 890px; */
   /* max-width: 1000px; */
-  margin: auto;
+  margin: 0;
   /* background: rgb(275, 285, 254); */
-  padding: 0px;
-  margin-top: 0px;
+  padding: 0;
+  margin-top: 0;
 }
 
 /* main img {
@@ -536,8 +536,47 @@ div.reset {
   color: #000000;
 }
 
+/* CALENDARIO */
 
+.portfolio-card {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
 
+.portfolio-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-card-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0,0.3);
+  color: #fff;
+  padding: 1rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-card-info h3{
+  padding: .5rem;
+}
+
+.portfolio-card:hover .portfolio-card-info {
+  opacity: 1;
+  pointer-events: auto;
+}
 
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
@@ -657,7 +696,7 @@ div.reset {
   /* ------------------------------------------------------ */
   /* Edicion de el contenido de nuestro contenido en la pagina minimixada */
   main {
-    margin-top: 80px;
+    margin-top: 55px;
   }
 
   /* Eliminamos nuestro logo */
