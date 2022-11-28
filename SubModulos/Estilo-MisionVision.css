@@ -24,7 +24,7 @@ main {
     width: 100%;
     /* margin: 50px; */
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     color: #060763;
     display: flex;
     justify-content: center;
@@ -65,24 +65,32 @@ main {
   .navegar-tec {
     text-decoration: none;
   }
-  
+  .fondo-circulo{
+    background-color: #02006a;
+    border-radius: 4%;
+    width: 30%;
+    margin: 0% 0% 0% 0%;
+    padding: 2%;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+
   /* Texto para una noticia con imagena a la derecha */
   .text1 {
-    
     float: left;
-    width: auto;
-    margin-top: 40px;
-    margin-left: 20px;
-    text-align: left;
+    width: 90%;
+    margin: 3% 2% 3% 8%;
+    padding-left: 0px;
+    text-align: center;
     text-decoration: solid;
-    font-size: 30px;
-    font-family: ShitHappensTriald;
-    color: #060763;
+    font-size: 56px;
+    font-family: fantasy;
+    color: #ffffff;
+    filter: drop-shadow(9px 2px 6px #000000);
   }
   .text2 {
     float: left;
     width: auto;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-left: 40px;
     /* padding-left: 100px; */
     text-align: left;
@@ -122,6 +130,7 @@ main {
     margin-right: 60px;
     width: 250px;
     height: 120px;
+    /* box-sizing: none; */
   }
   /* Ocupara para una imagen a la izquierda */
   div.cont-titulo img.imagen-izquierda {
@@ -182,8 +191,8 @@ main {
     src: url(fuentes/ShitHappensTriald.otf);
   }
   /* Texto para una noticia con imagen a la izquierda */
-  .text1 {
-      /* float: left; */
+  /* .text1 {
+    float: left; 
     width: auto;
     margin-top: 70px;
     padding-left: 100px;
@@ -191,18 +200,18 @@ main {
     text-decoration: solid;
     font-size: 30px;
     font-family: ShitHappensTriald;
-  }
+  } */
   
-  /* Texto para una noticia con imagena a la derecha */
+  /* Texto para una noticia con imagena a la derecha 
   .text2 {
     width: auto;
     margin-top: 70px;
-    /* padding-left: 100px; */
+    /*padding-left: 100px; 
     text-align: center;
     text-decoration: solid;
     font-size: 30px;
     font-family: ShitHappensTriald;
-  }
+  } */
   
   /* Recetear el partado del texto que no tome todo este es crucial no borrarlo */
   div.reset {
