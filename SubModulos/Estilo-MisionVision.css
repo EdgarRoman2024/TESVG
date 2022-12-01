@@ -1,13 +1,13 @@
 /* Edicion de todo nuestro contenido */
 main {
-    width: 90%;
-    /*width: 890px; */
-    max-width: 1000px;
-    margin: auto;
-    background: rgb(211, 209, 209);
-    padding: 0px;
-    margin-top: 0px;
-  }
+  /* width: 90%; */
+  /*width: 890px; */
+  /* max-width: 1000px; */
+  margin: auto;
+  /* background: rgba(39, 143, 204, 0.2); */
+  padding: 0px;
+  margin-top: 0px;
+}
   
   a.navegadores {
     color: white;
@@ -73,6 +73,62 @@ main {
     padding: 2%;
     filter: drop-shadow(2px 4px 6px black);
   }
+
+  /* IMAGEN DE MISION Y VISION */
+.hero-image {
+  background-image: var(--hero-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: var(--hero-attachment);
+}
+
+.hero-image-opacity {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--hero-opacity-color);
+}
+
+.hero-image-title {
+  color: var(--hero-text-color);
+  font-size: 7.5vw;
+  filter: drop-shadow(9px 2px 6px #000000);
+}
+
+.hero-image-title {
+  color: var(--hero-text-color);
+  font-size: 7.5vw;
+}
+
+.sedes {
+  /* text-align: center; */
+  /* padding: 1rem; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  padding-bottom: 0;
+  display: flex;
+  margin: 1rem;
+  text-align: center;
+}
+
+.job {
+  /* padding: 1rem; */
+  margin: 2rem;
+  width: 50%;
+  /* background-color: rgb(226, 226, 226);
+  box-shadow: 1px 1px 10px 3px rgb(2, 120, 255); */
+  border-left: #060763 solid thick;
+}
+
+.dudas {
+  /* padding: 1rem; */
+  margin: 2rem;
+  width: 50%;
+  border-left: #060763 solid thick;
+}
 
   /* Texto para una noticia con imagena a la derecha */
   .text1 {
