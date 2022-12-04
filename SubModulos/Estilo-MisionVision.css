@@ -9,6 +9,19 @@ main {
   margin-top: 0px;
 }
   
+  h2.misvis{
+    background-color: #02006a;
+    color: antiquewhite;
+    margin: 0% 0% 0% 0%;
+  }
+  h3.misvis{
+    background-color: rgb(199, 199, 199);
+    margin: 0% 0% 0% 0%;
+  }
+  div.texto{
+    
+  }
+
   a.navegadores {
     color: white;
     text-decoration: none;
