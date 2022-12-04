@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Posgrado | TESVG</title>
+  <title>TES | Misión</title>
   <!-- Importar icono -->
   <link rel="icon" type="image/png" href="../images/IconoPagina.png" />
   <!-- <link rel="stylesheet" href="EstilosGeneral.css" /> -->
   <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="Estilo-Ingenierias.css" />
+  <link rel="stylesheet" href="Estilo-MisionVision.css" />
   <link rel="stylesheet" href="../css/prueba.css">
   <!-- Importar los iconos peque;os del menu -->
   <link rel="stylesheet" href="../iconos/css/fontello.css" />
@@ -125,7 +125,7 @@
             <ul class="submenu">
               <li><a href="../SubModulos/licenciaturas.html">Licenciaturas</a></li>
               <li><a href="../SubModulos/ingenierias.html">Ingenierías</a></li>
-              <li><a href="../SubModulos/Posgrado.html">Posgrado</a></li>
+              <li><a href="../SubModulos/Posgrado.html">Posgrado </a></li>
               <li><a href="../SubModulos/Doctorados.html">Doctorados</a></li>
               <li><a href="../SubModulos/Diplomados.html">Diplomados</a></li>
             </ul>
@@ -148,7 +148,7 @@
             Conócenos <span class="icon-down-dir"></span>
             <ul class="submenu">
               <li><a href="/SubModulos/Mision.html">Misión</a></li>
-              <li><a href="">Visión</a></li>
+              <li><a href="/SubModulos/Vision.html">Visión</a></li>
               <li><a href="">Objetivos</a></li>
               <li><a href="">Historia</a></li>
               <li><a href="">Directorio</a></li>
@@ -178,25 +178,42 @@
   </header>
   <main>
     <section class="home">
-      <article class="hero-image" style="--hero-image:url(assets/posgrado.png); --hero-attachment:fixed;">
+      <article class="hero-image" style="--hero-image:url(../images/mision.jpg); --hero-attachment:fixed;">
         <aside class="hero-image-opacity" style="--hero-opacity-color: rgb(0, 0, 0, 0.5)">
           <div class="hero-image-content">
-            <h2 class="hero-image-title" style="--hero-text-color: #fff; font-family: 'Bebas Neue';">P o s g r a d o
-            </h2>
+            <h2 class="hero-image-title" style="--hero-text-color: #fff; font-family: 'Bebas Neue';">M i s i ó n</h2>
           </div>
         </aside>
       </article>
     </section>
+
+    <section>
+      <article class="hero-image" style="--hero-image:url(../images/misionUnit.png); --hero-attachment:fixed;">
+        <div class="div-Tec">
+          <h3>TECNOLOGICO NACIONAL DE MEXICO</h3>
+        </div>
+      </article>
+    </section>
+
     <section class="sedes">
       <div class="job">
-        <h2>¿QUE POSGRADO TE INTERESA?</h2>
-        <p>Busca la institución que te interese y te mostrar los programas que se imparten</p>
+          <h2>MISIÓN</h2>
+          <p>Busca la carrera que te interese y te mostrar las sedes en que<br>esta se imparte</p>
       </div>
       <div class="dudas">
-        <h2>¿TIENES ALGUNA DUDA?</h2>
+        <h2>VISIÓN</h2>
         <P>Presiona los links, te llevaran a la sede que buscas</P>
       </div>
     </section>
+
+    <section>
+      <article class="hero-image" style="--hero-image:url(../images/misionUnit_2.png); --hero-attachment:fixed;">
+        <div class="div-Tec">
+          <h3>TECNOLOGICO NACIONAL DE MEXICO</h3>
+        </div>
+      </article>
+    </section>
+
     <section class="perfiles">
       <div class="accordion" id="accordionExample">
         <!--2. Ingeniería Aeronáutica -->
@@ -497,6 +514,56 @@
         </div>
       </div>
     </section>
+    <section id="contacto" class="contact section">
+      <div class="container">
+        <div class="formulario-dudas">
+          <h2>¿QUIERES MAS INFORMACION?</h2>
+        </div>
+        <form action="" class="contact-form box-shadow-1">
+          <input type="text" name="name" placeholder="Ingresa tu nombre *"
+            title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="email" name="email" placeholder="Ingresa tu correo *" title="Email incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+          <input type="number" name="number" placeholder="Ingresa tu numero celular *" title="Numero incorrecto"
+            pattern="^[0-9]+$" required>
+          <select name="select" class="select">
+            <option value="">---- Selecciona una institución ----</option>
+            <option value="edgar.pgc.estudiante@gmail.com">Correo de Edgar</option>
+            <!-- <option value="jorocho43@hotmail.com">Correo Dos</option> -->
+            <option value="victoruaem@gmail.com">Correo de Victor</option>
+          </select>
+          <input type="text" id="resultado" name="result" placeholder="---- Selecciona una institución ----" disabled>
+          <textarea name="comments" id="" cols="50" rows="10"
+            placeholder="Ej. Me gustaria saber más información sobre... *"></textarea>
+
+          <div class="contact-form-loader text-center none">
+            <img src="../images/loader.svg" alt="Enviando...">
+          </div>
+          <input class="btn-enviar" type="submit" value="ENVIAR MENSAJE">
+        </form>
+        <article class="modal" id="gracias">
+          <div class="modal-content">
+            <article class="contact-form-response">
+              <h3>
+                ¡Muchas gracias! <br>
+                Revisa tu correo con frecuencia
+              </h3>
+              <h5>En caso de no recibir respuesta<br>
+                Te aconsejamos ir a la institucion de tu interés
+              </h5>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z" />
+                <path
+                  d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z" />
+                <path
+                  d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z" />
+              </svg>
+            </article>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section id="contacto" class="contact section">
       <div class="container">
         <div class="formulario-dudas">
