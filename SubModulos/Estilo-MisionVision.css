@@ -165,18 +165,24 @@ a.navegadores {
 }
 
 .job {
-  /* padding: 1rem; */
+  padding: 2rem 6rem 2rem 0rem; 
   margin: 2rem;
   width: 50%;
   /* background-color: rgb(226, 226, 226);
   box-shadow: 1px 1px 10px 3px rgb(2, 120, 255); */
   border-left: #060763 solid thick;
 }
+.job-h1{
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0px 6px 2px #8a8a8a);
+}
 .dudas {
   /* padding: 1rem; */
   margin: 2rem;
   width: 50%;
-  border-left: #060763 solid thick;
+  margin: 2rem 0rem 0rem -7rem;
+  font-size: 23px;
+  /* border-left: #060763 solid thick; */
 }
 
 .summary>h5 {
@@ -328,10 +334,18 @@ a.navegadores {
 }
 
 /*TEMA DE MISION O VISION DEL TECNM*/
-.div-Tec{
+.div-Tecnm{
   margin: 1% 0% 1% 0%;
   padding: 2% 21% 2% 26%;
-  background-color: #002efd2d;
+  color: #fff;
+  background-color: #001263;
+  text-align: center;
+}
+.div-Tes{
+  margin: 1% 0% 1% 0%;
+  padding: 2% 21% 2% 26%;
+  color: #fff;
+  background-color: #001263;
   text-align: center;
 }
 
@@ -359,13 +373,15 @@ a.navegadores {
     padding: 0;
     display: block;
     text-align: center;
+    border-left: #060763 solid thick;
   }
 
   .job {
-    padding-right: 1rem;
-    margin: 1rem;
+    margin: 0rem;
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
+    border-left: none;
+    padding: 1rem;
   }
 
   .dudas {
