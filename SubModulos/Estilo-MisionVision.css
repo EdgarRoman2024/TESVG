@@ -58,7 +58,7 @@ a.navegadores {
 }
 
 .container-img {
-  display: grid;
+  /* display: grid;*/
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -162,6 +162,8 @@ a.navegadores {
   display: flex;
   margin: 1rem;
   text-align: center;
+  background-color: #ffffffb8;
+  border-radius: 18px;
 }
 
 .job {
@@ -336,18 +338,20 @@ a.navegadores {
 
 /*TEMA DE MISION O VISION DEL TECNM*/
 .div-Tecnm{
-  margin: 1% 0% 1% 0%;
-  padding: 2% 21% 2% 26%;
+  margin: 0% 3% 0% 3%;
+  padding: 1% 13% 1% 15%;
   color: #fff;
   background-color: #001263;
   text-align: center;
+  border-radius: 8px;
 }
 .div-Tes{
-  margin: 1% 0% 1% 0%;
-  padding: 2% 21% 2% 26%;
+  margin: 0% 3% 0% 3%;
+  padding: 1% 13% 1% 15%;
   color: #fff;
   background-color: #001263;
   text-align: center;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 900px) {
