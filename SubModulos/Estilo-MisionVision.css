@@ -1,268 +1,403 @@
 /* Edicion de todo nuestro contenido */
 main {
-    width: 90%;
-    /*width: 890px; */
-    max-width: 1000px;
-    margin: auto;
-    background: rgb(211, 209, 209);
-    padding: 0px;
-    margin-top: 0px;
+  /* width: 90%; */
+  /*width: 890px; */
+  /* max-width: 1000px; */
+  margin: auto;
+  /* background: rgba(39, 143, 204, 0.2); */
+  padding: 0px;
+  margin-top: 0px;
+}
+
+a.navegadores {
+  color: white;
+  text-decoration: none;
+}
+
+/* Contennedor general */
+.cont-general {
+  width: 100%;
+}
+
+/* contenedor del titulo  */
+.cont-titulo {
+  width: 100%;
+  /* margin: 50px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #060763;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-principal {
+  font-size: 60px;
+}
+
+/* Estilos franja azul */
+.Cont-subti-ing {
+  width: 100%;
+  background: #060763;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.images-generales {
+  width: 100%;
+  height: 250px;
+}
+
+#img1,
+#img2,
+#img3 {
+  width: 100%;
+  height: 250px;
+}
+
+.container-img {
+  /* display: grid;*/
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container-img-posgrado{
+  width: 100%;
+}
+
+.container-img-electronic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Contenedor de todos los tecnologicos */
+.cont-todos-tec {
+  width: 100%;
+  color: #060763;
+  /* background-color: red; */
+
+}
+
+.tecnologicos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navegar-tec:hover {
+  background-color: #060763;
+  transition: all .5s ease;
+  color: white;
+  font-size: 21px;
+  width: 100%;
+  text-align: center;
+  /* font-weight: bold; */
+}
+
+.navegar-tec {
+  text-decoration: none;
+  color: black;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+.formulario-dudas {
+  text-align: center;
+  margin: 2rem;
+}
+
+/* Acordion */
+
+.perfiles {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.perfiles-doctorado{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion {
+  padding: 1.5rem;
+  /* background-color: rgba(39, 143, 204, 0.8); */
+}
+/* IMAGEN DE INGENIERIAS */
+.hero-image {
+  background-image: var(--hero-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: var(--hero-attachment);
+}
+
+.hero-image-opacity {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--hero-opacity-color);
+}
+
+.hero-image-title {
+  color: var(--hero-text-color);
+  font-size: 7.5vw;
+  filter: drop-shadow(9px 2px 6px #000000);
+}
+
+.hero-image-title {
+  color: var(--hero-text-color);
+  font-size: 7.5vw;
+}
+
+.sedes {
+  /* text-align: center; */
+  /* padding: 1rem; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  padding-bottom: 0;
+  display: flex;
+  margin: 1rem;
+  text-align: center;
+  background-color: #ffffffb8;
+  border-radius: 18px;
+}
+
+.job {
+  padding: 2rem 6rem 2rem 0rem; 
+  margin: 2rem;
+  width: 50%;
+  /* background-color: rgb(226, 226, 226);
+  box-shadow: 1px 1px 10px 3px rgb(2, 120, 255); */
+  border-left: #060763 solid thick;
+}
+.job-h1{
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0px 6px 2px #8a8a8a);
+  font-size:xxx-large;
+}
+.dudas {
+  /* padding: 1rem; */
+  margin: 2rem;
+  width: 50%;
+  margin: 2rem 0rem 0rem -7rem;
+  font-size: 23px;
+  /* border-left: #060763 solid thick; */
+}
+
+.summary>h5 {
+  border-bottom: 2px solid #000;
+  padding-bottom: 1rem;
+}
+
+.summary>p {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.summary {
+  /* background-color: red; */
+  /* border-radius: 1rem; */
+  margin: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+/* FORMULARIO  */
+/*________Formulario_________*/
+.contact-form {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+}
+
+.contact-form>* {
+  padding: .5rem;
+  margin: 2rem auto;
+  display: block;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 0.85rem;
+  font-family: sans-serif;
+}
+
+.contact-form textarea {
+  border-radius: 15px;
+  border: thin solid #000;
+  resize: none;
+}
+
+.contact-form input {
+  padding-left: 0;
+  border: 0;
+  border-bottom: thin solid #000;
+}
+
+.contact-form input[type="submit"] {
+  margin-top: 0;
+  cursor: pointer;
+  transition: all .2s ease-out;
+}
+
+.contact-form input[type="submit"]:hover {
+  opacity: .75;
+}
+
+.contact-form * ::placeholder {
+  color: #000;
+}
+
+.contact-form-response {
+  padding: 1rem;
+  width: 400px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.contact-form-response svg {
+  margin-top: 2rem;
+  width: 4rem;
+  height: 4rem;
+  fill: #060763;
+}
+
+.modal#gracias:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.none {
+  display: none;
+}
+
+.box-shadow-1 {
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1rem;
+}
+
+.contact-form textarea,
+.contact-form-loader {
+  grid-column: span 2;
+}
+
+.contact-form input[type="submit"] {
+  margin-left: 0;
+}
+
+.btn-enviar {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #060763;
+}
+
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  transition: all 1s;
+}
+
+.modal-content {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*TEMA DE MISION O VISION DEL TECNM*/
+.div-Tecnm{
+  margin: 0% 3% 0% 3%;
+  padding: 1% 13% 1% 15%;
+  color: #fff;
+  background-color: #001263;
+  text-align: center;
+  border-radius: 8px;
+}
+.div-Tes{
+  margin: 0% 3% 0% 3%;
+  padding: 1% 13% 1% 15%;
+  color: #fff;
+  background-color: #001263;
+  text-align: center;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  body{
+    overflow-x: hidden;
   }
-  
-  a.navegadores {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* Contennedor general */
   .cont-general {
-    width: 100%;
-  }
-  
-  /* contenedor del titulo y de los logos  */
-  .cont-titulo {
-    width: 100%;
-    /* margin: 50px; */
-    padding-top: 50px;
-    padding-bottom: 20px;
-    color: #060763;
-    display: flex;
-    justify-content: center;
-  }
-  .titulo-principal {
-    font-size: 60px;
-  }
-  
-  /* Estilos franja azul */
-  .Cont-subti-ing {
-    width: 100%;
-    background:rgb(211, 209, 209);
-    display: flex;
-    justify-content: center;
-    color: #060763;
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-  .images-generales {
-    width: 100%;
-  }
-  
-  /* Contenedor de todos los tecnologicos */
-  .cont-todos-tec {
-    width: 100%;
-    color: #060763;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .tecnologicos {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .tecnologicos:hover {
-    background-color: aqua;
-  }
-  .navegar-tec {
-    text-decoration: none;
-  }
-  .fondo-circulo{
-    background-color: #02006a;
-    border-radius: 4%;
-    width: 30%;
-    margin: 0% 0% 0% 0%;
-    padding: 2%;
-    filter: drop-shadow(2px 4px 6px black);
+    margin-top: 50px;
   }
 
-  /* Texto para una noticia con imagena a la derecha */
-  .text1 {
-    float: left;
-    width: 90%;
-    margin: 3% 2% 3% 8%;
-    padding-left: 0px;
-    text-align: center;
-    text-decoration: solid;
-    font-size: 56px;
-    font-family: fantasy;
-    color: #ffffff;
-    filter: drop-shadow(9px 2px 6px #000000);
-  }
-  .text2 {
-    float: left;
+  .perfiles {
     width: auto;
-    margin-top: 0px;
-    margin-left: 40px;
-    /* padding-left: 100px; */
-    text-align: left;
-    text-decoration: solid;
-    font-size: 25px;
-    font-family: ShitHappensTriald;
-    color: #060763;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
-  
-  .text2 h4{
-    margin: 40px auto;
+
+  .accordion {
+    padding-bottom: 0;
+    padding-top: 1rem;
   }
-  
-  /* Franja azul */
-  .franja-azul {
+
+  .sedes {
+    padding-bottom: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    border-left: #060763 solid thick;
+  }
+
+  .job {
+    margin: 0rem;
     width: 100%;
-    height: 20px;
-    background: #060763;
+    margin-bottom: 0rem;
+    border-left: none;
+    padding: 1rem;
   }
-  
-  /* Contenedor de las imagenes del tecnologico */
-  div.cont-nom-tecnologico {
-     width: 100%;
-     
-    background:rgb(211, 209, 209);
-    display: flex;
-    justify-content: center;
-    color: #060763;
-    padding-top: 30px;
-    padding-bottom: 50px;
-  }
-  /* Ocupara para una imagen a la derecha */
-  div.cont-titulo img.imagen-derecha {
-    margin: auto;
-    float: left;
-    padding-top: 25px;
-    margin-right: 60px;
-    width: 250px;
-    height: 120px;
-    /* box-sizing: none; */
-  }
-  /* Ocupara para una imagen a la izquierda */
-  div.cont-titulo img.imagen-izquierda {
-    
-    padding-top: 25px;
-    float: left;
-    margin-left: 90px;
-  }
-  
-/* ------------------------------------------------------------------------------ */
-/* Seccion donde estan todos los elemnetos de las secciones */
 
-/* Propiedades generales de todas las franjas azul del titulo */
-.contenedorgeneral {
+  .dudas {
+    padding-right: 1rem;
+    margin: 1rem;
     width: 100%;
-    color: rgb(255, 255, 255);
   }
-  
-  /* Letras de enmedio de todas las franjas azules */
-  .titulos {
-    background: #060763;
-    text-align: center;
-    text-decoration: solid;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    width: auto;
-    padding: 5px;
+  .contact-form {
+    display: block;
   }
-  
-  /* Propiedaes de todas las noticias */
-  div.noticias {
-    width: 90%;
-    margin: 20px auto;
-    color: rgb(0, 0, 0);
-    padding: 15px;
+  .btn-enviar{
+    width: 100%;
   }
-  
-  /* Ocupar para una ina imagen a la izquierda */
-  div.noticias img.imagen-izquierda {
-    float: left;
-    margin-right: 50px;
-    width: 300px;
-    height: 300px;
-  }
-  /* Ocupara para una imagen a la derecha */
-  div.noticias img.imagen-derecha {
-    float: right;
-    margin-left: 50px;
-    width: 300px;
-    height: 300px;
-  }
-  
-  /* ---------------------------------------------------------------------------- */
-  
-  /* Tipo de fuente general para los textox de las noticias */
-  @font-face {
-    font-family: ShitHappensTriald;
-    src: url(fuentes/ShitHappensTriald.otf);
-  }
-  /* Texto para una noticia con imagen a la izquierda */
-  /* .text1 {
-    float: left; 
-    width: auto;
-    margin-top: 70px;
-    padding-left: 100px;
-    text-align: center;
-    text-decoration: solid;
-    font-size: 30px;
-    font-family: ShitHappensTriald;
-  } */
-  
-  /* Texto para una noticia con imagena a la derecha 
-  .text2 {
-    width: auto;
-    margin-top: 70px;
-    /*padding-left: 100px; 
-    text-align: center;
-    text-decoration: solid;
-    font-size: 30px;
-    font-family: ShitHappensTriald;
-  } */
-  
-  /* Recetear el partado del texto que no tome todo este es crucial no borrarlo */
-  div.reset {
-    clear: both;
-  }
-  
-  /* Propiedades de todos los botones generales */
-  .btn-contorno {
-    margin: 40px;
-    display: flex;
-    justify-content: center;
-  }
-  .btn {
-    text-decoration: none;
-    color: white;
-    background: rgb(8, 117, 117);
-    border-radius: 80px;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-size: 15px;
-  }
-
-  /* ------------------------------------------------------------------------ */
-
-  /* @media screen and (max-width: 900px) {
-    .cont-general{
-      margin-top: 50px;
-    }
-  } */
-  @media screen and (max-width: 740px) {
-    .cont-general {
-      margin-top: 50px;
-    }
-    div.cont-titulo img.imagen-izquierda {
-      margin-left: 50px;
-    }
-    div.cont-titulo img.imagen-derecha {
-      /* display: none; */
-      width: 180px;
-      height: 100px;
-    }
-    .text1 {
-      font-size: 30px;
-      margin-left: 5px;
-      margin-right: 5px;
-    }
-
-    .btn1-contorno {
-        margin: auto;
-        width: 190px;
-        margin-top: 20px;
-      }
-  }
-  
+}
