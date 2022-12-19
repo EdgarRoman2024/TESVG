@@ -578,6 +578,242 @@ div.reset {
   pointer-events: auto;
 }
 
+/* OFERTA EDU Home */
+
+.portfolio-card-ING {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+.portfolio-card-ING img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.portfolio-card-ING-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(221, 13, 13, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+
+}
+.portfolio-card-ING-info h3{
+  padding: .5rem;
+}
+.portfolio-card-ING:hover .portfolio-card-ING-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+.contenedores-info h5{
+  font-size: 3.5rem;
+}
+.contenedores-info{
+  padding: 0.5rem;
+}
+
+.contenedores-oferta-diplomado{
+  width: 50%;
+}
+.contenedor-diplomado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-info h2{
+    padding: 1.5rem;
+    margin: 2rem;
+    border-bottom: #060763 solid thick;
+    /* background-color: #060763; */
+    text-align: center;
+}
+
+/* Columas del HOME */
+.contenedores-of {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Contenerdor LIC */
+.portfolio-card-LIC {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+.portfolio-card-LIC img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.portfolio-card-LIC-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(124, 221, 13, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.portfolio-card-LIC-info h3{
+  padding: .5rem;
+}
+.portfolio-card-LIC:hover .portfolio-card-LIC-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+
+/* Contenerdor POS */
+.portfolio-card-POS {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+.portfolio-card-POS img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+.portfolio-card-POS-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 13, 221, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+
+}
+.portfolio-card-POS-info h3{
+  padding: .5rem;
+}
+.portfolio-card-POS:hover .portfolio-card-POS-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+
+/* Contenerdor DOC */
+.portfolio-card-DOC {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+.portfolio-card-DOC img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+.portfolio-card-DOC-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(197, 13, 221, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+
+}
+.portfolio-card-DOC-info h3{
+  padding: .5rem;
+}
+.portfolio-card-DOC:hover .portfolio-card-DOC-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+
+/* Contenerdor DIPL */
+.portfolio-card-DIPL {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+.portfolio-card-DIPL img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+.portfolio-card-DIPL-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(221, 124, 13, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+
+}
+.portfolio-card-DIPL-info h3{
+  padding: .5rem;
+}
+.portfolio-card-DIPL:hover .portfolio-card-DIPL-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
 @media screen and (max-width: 900px) {
