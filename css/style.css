@@ -10,36 +10,39 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-html{
+
+html {
   margin: 0;
   padding: 0;
 }
+
 /* Barra scroll */
-.menu::-webkit-scrollbar{
+.menu::-webkit-scrollbar {
   width: 7px;
   /* background-color: #fff; */
 }
 
-.menu::-webkit-scrollbar-thumb{
+.menu::-webkit-scrollbar-thumb {
   background-color: #e3e3e3;
   border-radius: 20px;
 }
 
 
-*::-webkit-scrollbar{
+*::-webkit-scrollbar {
   width: 10px;
   /* background-color: #060763; */
 }
 
-*::-webkit-scrollbar-thumb{
+*::-webkit-scrollbar-thumb {
   background-color: rgba(39, 143, 204, 0.8);
   border-radius: 20px;
 }
 
 /* -------------------------- */
-body{
+body {
   overflow-x: hidden;
 }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   /* background-image: url(../images/images_BODY/boby_fondo.jpg); */
@@ -357,7 +360,6 @@ main h2 {
 main p {
   margin-top: 10px;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
 }
 
 /*Alineacion de iconos azules*/
@@ -523,15 +525,18 @@ div.reset {
   visibility: hidden;
   opacity: 0;
 }
+
 /* iconos de las ingenierias */
-.icon > svg {
+.icon>svg {
   fill: #000000;
   align-self: center;
 }
-.icon{
+
+.icon {
   padding: 1rem;
 }
-.icon > h4{
+
+.icon>h4 {
   font-weight: bold;
   color: #000000;
 }
@@ -558,7 +563,7 @@ div.reset {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(0, 0, 0,0.3);
+  background-color: rgb(0, 0, 0, 0.3);
   color: #fff;
   padding: 1rem;
   opacity: 0;
@@ -569,7 +574,8 @@ div.reset {
   align-items: center;
   justify-content: center;
 }
-.portfolio-card-info h3{
+
+.portfolio-card-info h3 {
   padding: .5rem;
 }
 
@@ -587,12 +593,13 @@ div.reset {
   display: block;
   padding: 0;
 }
+
 .portfolio-card-ING img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
   border-radius: 30px;
 }
+
 .portfolio-card-ING-info {
   position: absolute;
   top: 0;
@@ -612,34 +619,39 @@ div.reset {
   border-radius: 30px;
 
 }
-.portfolio-card-ING-info h3{
+
+.portfolio-card-ING-info h3 {
   padding: .5rem;
 }
+
 .portfolio-card-ING:hover .portfolio-card-ING-info {
   opacity: 0.4;
   pointer-events: auto;
 }
-.contenedores-info h5{
+
+.contenedores-info h5 {
   font-size: 3.5rem;
 }
-.contenedores-info{
+
+.contenedores-info {
   padding: 0.5rem;
 }
 
-.contenedores-oferta-diplomado{
+.contenedores-oferta-diplomado {
   width: 50%;
 }
-.contenedor-diplomado{
+
+.contenedor-diplomado {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.title-info h2{
-    padding: 1.5rem;
-    margin: 2rem;
-    border-bottom: #060763 solid thick;
-    /* background-color: #060763; */
-    text-align: center;
+
+.title-info h2 {
+  padding: 1.5rem;
+  margin: 2rem;
+  border-bottom: #060763 solid thick;
+  text-align: center;
 }
 
 /* Columas del HOME */
@@ -657,12 +669,14 @@ div.reset {
   display: block;
   padding: 0;
 }
+
 .portfolio-card-LIC img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 30px;
 }
+
 .portfolio-card-LIC-info {
   position: absolute;
   top: 0;
@@ -681,9 +695,11 @@ div.reset {
   justify-content: center;
   border-radius: 30px;
 }
-.portfolio-card-LIC-info h3{
+
+.portfolio-card-LIC-info h3 {
   padding: .5rem;
 }
+
 .portfolio-card-LIC:hover .portfolio-card-LIC-info {
   opacity: 0.4;
   pointer-events: auto;
@@ -697,6 +713,7 @@ div.reset {
   display: block;
   padding: 0;
 }
+
 .portfolio-card-POS img {
   width: 100%;
   height: 100%;
@@ -704,6 +721,7 @@ div.reset {
   border-radius: 30px;
 
 }
+
 .portfolio-card-POS-info {
   position: absolute;
   top: 0;
@@ -723,9 +741,11 @@ div.reset {
   border-radius: 30px;
 
 }
-.portfolio-card-POS-info h3{
+
+.portfolio-card-POS-info h3 {
   padding: .5rem;
 }
+
 .portfolio-card-POS:hover .portfolio-card-POS-info {
   opacity: 0.4;
   pointer-events: auto;
@@ -739,6 +759,7 @@ div.reset {
   display: block;
   padding: 0;
 }
+
 .portfolio-card-DOC img {
   width: 100%;
   height: 100%;
@@ -746,6 +767,7 @@ div.reset {
   border-radius: 30px;
 
 }
+
 .portfolio-card-DOC-info {
   position: absolute;
   top: 0;
@@ -765,9 +787,11 @@ div.reset {
   border-radius: 30px;
 
 }
-.portfolio-card-DOC-info h3{
+
+.portfolio-card-DOC-info h3 {
   padding: .5rem;
 }
+
 .portfolio-card-DOC:hover .portfolio-card-DOC-info {
   opacity: 0.4;
   pointer-events: auto;
@@ -781,6 +805,7 @@ div.reset {
   display: block;
   padding: 0;
 }
+
 .portfolio-card-DIPL img {
   width: 100%;
   height: 100%;
@@ -788,6 +813,7 @@ div.reset {
   border-radius: 30px;
 
 }
+
 .portfolio-card-DIPL-info {
   position: absolute;
   top: 0;
@@ -806,13 +832,73 @@ div.reset {
   justify-content: center;
   border-radius: 30px;
 }
-.portfolio-card-DIPL-info h3{
+
+.portfolio-card-DIPL-info h3 {
   padding: .5rem;
 }
 .portfolio-card-DIPL:hover .portfolio-card-DIPL-info {
   opacity: 0.4;
   pointer-events: auto;
 }
+/* HOME TECLOGICOS */
+.TES{
+  color: #fff;
+  background-color: rgba(6, 7, 99, 0.5);
+  font-size: 22px;
+  text-align: left;
+  padding: 1rem;
+  margin: 0.4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /* border: solid 3px; */
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+}
+
+.sedes-tecnologicos{
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.TES a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.TES:hover{
+  background-color: rgba(39, 143, 204, 0.8);
+  transition: all .5s ease;
+}
+
+/* Video secretario */
+.mensaje-secretario {
+  text-align: center;
+}
+.informacion-msj{
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 4rem;
+}
+.informacion-msj h4{
+  text-align: center;
+  font-size: 40px;
+  color: #060763;
+}
+.informacion-msj p{
+  text-align: center;
+}
+
+.info-mision, .info-vision{
+  margin: 1rem;
+}
+.nota{
+  text-align: center;
+  margin: 1rem;
+}
+
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
 @media screen and (max-width: 900px) {
@@ -1108,21 +1194,39 @@ div.reset {
     text-decoration: none;
     color: white;
   }
+
   .contenedores-of {
     width: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .contenedores-oferta-diplomado{
+
+  .contenedores-oferta-diplomado {
     width: 100%;
   }
-  .portfolio-card-LIC img,.portfolio-card-ING  img,.portfolio-card-POS  img,.portfolio-card-DOC img, .portfolio-card-DIPL  img{
+
+  .portfolio-card-LIC img,
+  .portfolio-card-ING img,
+  .portfolio-card-POS img,
+  .portfolio-card-DOC img,
+  .portfolio-card-DIPL img {
     border-radius: 10px;
   }
-  .portfolio-card-LIC-info,.portfolio-card-ING-info, .portfolio-card-POS-info,.portfolio-card-DOC-info, .portfolio-card-DIPL-info{
+
+  .portfolio-card-LIC-info,
+  .portfolio-card-ING-info,
+  .portfolio-card-POS-info,
+  .portfolio-card-DOC-info,
+  .portfolio-card-DIPL-info {
     border-radius: 10px;
   }
-  .contenedores-info{
+
+  .contenedores-info {
     padding: 0.3rem;
+  }
+  .sedes-tecnologicos{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
