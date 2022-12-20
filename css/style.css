@@ -805,7 +805,6 @@ div.reset {
   align-items: center;
   justify-content: center;
   border-radius: 30px;
-
 }
 .portfolio-card-DIPL-info h3{
   padding: .5rem;
@@ -1108,5 +1107,22 @@ div.reset {
   .stdem>a {
     text-decoration: none;
     color: white;
+  }
+  .contenedores-of {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contenedores-oferta-diplomado{
+    width: 100%;
+  }
+  .portfolio-card-LIC img,.portfolio-card-ING  img,.portfolio-card-POS  img,.portfolio-card-DOC img, .portfolio-card-DIPL  img{
+    border-radius: 10px;
+  }
+  .portfolio-card-LIC-info,.portfolio-card-ING-info, .portfolio-card-POS-info,.portfolio-card-DOC-info, .portfolio-card-DIPL-info{
+    border-radius: 10px;
+  }
+  .contenedores-info{
+    padding: 0.3rem;
   }
 }
