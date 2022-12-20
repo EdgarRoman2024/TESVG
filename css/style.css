@@ -87,7 +87,7 @@ header:hover {
   display: flex;
   margin: auto;
   background-color: white;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #cont-logos {
