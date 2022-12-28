@@ -152,6 +152,14 @@ header:hover {
   background-color: #e3e3e3;
 }
 
+#cont-search{
+  justify-content: center;
+  padding: 43px;
+  width: 225px;
+  margin: 0% 0% 0% 0%;
+  background-color:#ffffff00;
+}
+
 #edu {
   width: 215px;
   height: 150px;
