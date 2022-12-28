@@ -116,7 +116,8 @@ header:hover {
   margin: 0 auto;
   padding: 1rem;
 }
-.texto-image{
+
+.texto-image {
   color: var(--hero-text-color-inicio);
   width: 45%;
   display: inline-block;
@@ -888,12 +889,14 @@ div.reset {
 .portfolio-card-DIPL-info h3 {
   padding: .5rem;
 }
+
 .portfolio-card-DIPL:hover .portfolio-card-DIPL-info {
   opacity: 0.4;
   pointer-events: auto;
 }
+
 /* HOME TECLOGICOS */
-.TES{
+.TES {
   color: #fff;
   background-color: rgba(6, 7, 99, 0.5);
   font-size: 22px;
@@ -908,7 +911,7 @@ div.reset {
   border-radius: 2rem;
 }
 
-.sedes-tecnologicos{
+.sedes-tecnologicos {
   width: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -919,7 +922,7 @@ div.reset {
   color: #fff;
 }
 
-.TES:hover{
+.TES:hover {
   background-color: rgba(39, 143, 204, 0.8);
   transition: all .5s ease;
 }
@@ -928,54 +931,110 @@ div.reset {
 .mensaje-secretario {
   text-align: center;
 }
-.msj-secre{
-  width:1100px;
-  height:600px;
+
+.msj-secre {
+  width: 1100px;
+  height: 600px;
 }
-.informacion-msj{
+
+.informacion-msj {
   width: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 4rem;
 }
-.informacion-msj h4{
+
+.informacion-msj h4 {
   text-align: center;
   font-size: 40px;
   color: #060763;
 }
-.informacion-msj p{
+
+.informacion-msj p {
   text-align: center;
 }
 
-.info-mision, .info-vision{
+.info-mision,
+.info-vision {
   margin: 1rem;
 }
-.nota{
+
+.nota {
   text-align: center;
   margin: 1rem;
 }
-.container-info-dual{
+
+.container-info-dual {
   width: 90%;
   /* background-color: red; */
   border: solid 2px rgb(0, 0, 0, 0.6);
-  border-radius:20px;
+  border-radius: 20px;
   padding: 2rem;
 }
-.container-info-dual h5{
-text-align: center;
-padding: 1rem;
-padding-bottom: 0;
+
+.container-info-dual h5 {
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 0;
 }
+
 .container-info-dual p {
-text-align: justify;
+  text-align: justify;
 }
-.title-dual{
+
+.title-dual {
   text-align: right;
 }
-.info-dual{
+
+.info-dual {
   display: flex;
   justify-content: center;
 }
+
+.container-info-dual-three {
+  border: solid 2px rgb(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.container-info-dual-three h5 {
+  padding-bottom: 1rem;
+}
+
+.container-info-dual-three li {
+  padding-bottom: .5rem;
+}
+
+.container-info-dual-three {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 4rem;
+}
+
+.info-dual-three {
+  padding: 2rem;
+}
+
+.btn-triptico a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-triptico a:hover {
+  color: #fff;
+}
+.btn-triptico {
+  background-color: #060763;
+  padding: .5rem;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-triptico:hover{
+  background-color: #060763;
+  transition: all 0.5s ease; 
+  opacity: 0.8;
+}
+
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
 @media screen and (max-width: 900px) {
@@ -1301,24 +1360,55 @@ text-align: justify;
   .contenedores-info {
     padding: 0.3rem;
   }
-  .sedes-tecnologicos{
+
+  .sedes-tecnologicos {
     width: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .informacion-msj{
+
+  .informacion-msj {
     width: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .msj-secre{
-    width:80%;
-    height:400px;
+
+  .msj-secre {
+    width: 80%;
+    height: 400px;
   }
+
   .informacion-msj {
     padding: 1rem;
   }
-  .informacion-msj p{
+
+  .informacion-msj p {
     text-align: justify;
   }
+  .container-info-dual-three {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+  }
+  .container-info-dual-three h5{
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .informacion-msj {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .info-dual{
+    padding-top: 2rem;
+  }
+  .vinetas{
+    padding-top: 1rem;
+  }
+  .info-dual-three {
+    padding: 1rem;
+}
+
 }
