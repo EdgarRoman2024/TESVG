@@ -4,13 +4,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inicio | TESVG</title>
+  <title>Becas | TESVG</title>
   <!-- Importar icono -->
   <link rel="icon" type="image/png" href="../images/IconoPagina.png" />
-  <link rel="stylesheet" href="EstilosGeneral.css" />
-  <link rel="stylesheet" href="Estilo-Ingenierias.css" />
+  <!-- <link rel="stylesheet" href="EstilosGeneral.css" /> -->
+  <link rel="stylesheet" href="../css/style.css" />
   <!-- Importar los iconos peque;os del menu -->
   <link rel="stylesheet" href="../iconos/css/fontello.css" />
+  <!-- Boostrap Prueba -->
+  <link rel="stylesheet" href="../boostrap/css/bootstrap.css" />
+  <script src="../boostrap/js/bootstrap.min.js"></script>
+  <!--FUENTES DE GOOGLE-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <script src="../libreria/include-html.js"></script>
 </head>
 
 <body>
@@ -18,10 +26,14 @@
     <!-- Contendedor de todo el menu -->
     <div class="content-menu">
       <!-- Creacion de nuestro boton para ociones cuando se haga mas pequeña la ventana -->
-      <input type="checkbox" id="check" />
-      <label class="icon-menu" for="check"></label>
+      <input id="check" type="checkbox" />
+      <label for="check" class="toggle-button"></label>
+
       <!-- Etiqueta que aparecera cuando se haga mas peqeuña la ventana -->
-      <h2>Servicio Social</h2>
+      <h2 class="stdem">
+        <a href="../index.html">Sistema de Tecnol&oacutegicos Descentralizados del Estado de
+          M&eacutexico</a>
+      </h2>
       <!-- Imporntacion de nuestra imagen de logo -->
       <div>
         <div id="cont-logos">
@@ -34,90 +46,122 @@
       <!-- Creacion de los botones de navegacion -->
       <nav class="menu">
         <ul>
-          <li id="hom"><a class="navegadores" href="../index.html"><span class="icon-home"></span></a></li>
-          <li id="ssg1"><a class="navegadores" href="Msj-Secretario.html">
-              Mensaje del Secretario <span class="icon-down-dir"></a></span>
+          <li id="hom">
+            <a class="navegadores" href="../index.html"><span class="icon-home">Inicio</span></a>
+          </li>
+          <li id="ssg1">
+            <a class="navegadores" href="../SubModulos/Msj-Secretario.html">
+              Mensaje del Secretario</a>
           </li>
           <li id="sede">
-            Sede<span class="icon-down-dir"></span>
+            Sede <span class="icon-down-dir"></span>
             <ul class="escuelas">
               <li>
-                <a href="http://tescha.edomex.gob.mx/">Tecnologico de Estudios Superiores de chalco</a>
+                <a target="_blank" href="http://tescha.edomex.gob.mx/" target="_blank">Tecnol&oacutegico de Estudios
+                  Superiores de Chalco</a>
               </li>
               <li>
-                <a href="http://teschicoloapan.edomex.gob.mx/">Tecnologico de Estudios Superiores de Chicoalpan</a>
+                <a target="_blank" href="http://teschicoloapan.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores
+                  de Chicoalpan</a>
               </li>
               <li>
-                <a href="https://teschi.edu.mx/">Tecnologico de Estudios Superiores de Chimalhuacán</a>
+                <a target="_blank" href="https://teschi.edu.mx/">Tecnol&oacutegico de Estudios Superiores de
+                  Chimalhuacán</a>
               </li>
               <li>
-                <a href="http://www.tecnologicodecoacalco.edu.mx/TESCO/INICIO/INICIO.php">Tecnologico de Estudios Superiores de Coalco</a>
+                <a target="_blank"
+                  href="http://www.tecnologicodecoacalco.edu.mx/TESCO/INICIO/INICIO.php">Tecnol&oacutegico de Estudios
+                  Superiores de Coacalco</a>
               </li>
               <li>
-                <a href="http://tesci.edomex.gob.mx/">Tecnologico de Estudios Superiores de Cuatitlán Izcalli</a>
+                <a target="_blank" href="http://tesci.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de
+                  Cuatitlán
+                  Izcalli</a>
               </li>
               <li>
-                <a href="http://www.tese.edu.mx/ccyt_redirect/">Tecnologico de Estudios Superiores de Ecatepec</a>
+                <a target="_blank" href="http://www.tese.edu.mx/ccyt_redirect/">Tecnol&oacutegico de Estudios Superiores
+                  de Ecatepec</a>
               </li>
               <li>
-                <a href="http://teshuixquilucan.edomex.gob.mx/">Tecnologico de Estudios Superiores de Huixquilucan</a>
+                <a target="_blank" href="http://teshuixquilucan.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores
+                  de Huixquilucan</a>
               </li>
               <li>
-                <a href="https://tesi.org.mx/">Tecnologico de Estudios Superiores de Ixtapaluca</a>
+                <a target="_blank" href="https://tesi.org.mx/">Tecnol&oacutegico de Estudios Superiores de
+                  Ixtapaluca</a>
               </li>
               <li>
-                <a href="https://tesji.edomex.gob.mx/">Tecnologico de Estudios Superiores de Jilotepec</a>
+                <a target="_blank" href="https://tesji.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de
+                  Jilotepec</a>
               </li>
               <li>
-                <a href="https://tesjo.edomex.gob.mx/">Tecnologico de Estudios Superiores de Jocotitlán</a>
+                <a target="_blank" href="https://tesjo.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de
+                  Jocotitlán</a>
               </li>
               <li>
-                <a href="http://tesoem.edomex.gob.mx/">Tecnologico de Estudios Superiores del Oriente del Estado de México </a>
+                <a target="_blank" href="http://tesoem.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores del
+                  Oriente del
+                  Estado de México
+                </a>
               </li>
               <li>
-                <a href="http://tessfp.edomex.gob.mx/">Tecnologico de Estudios Superiores de San Felipe del
+                <a target="_blank" href="http://tessfp.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de San
+                  Felipe del
                   Progreso</a>
               </li>
               <li>
-                <a href="https://test.edomex.gob.mx/">Tecnologico de Estudios Superiores de Tianguistenco</a>
+                <a target="_blank" href="https://test.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de
+                  Tianguistenco</a>
               </li>
               <li>
-                <a href="http://tesvb.edomex.gob.mx/">Tecnologico de Estudios Superiores de Valle de Bravo</a>
+                <a target="_blank" href="http://tesvb.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de Valle
+                  de
+                  Bravo</a>
               </li>
               <li>
-                <a href="TecVillaGro.html">Tecnologico de Estudios Superiores de Villa Guerrero</a>
+                <a target="_blank" href="https://tesvg.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de Villa
+                  Guerrero</a>
               </li>
             </ul>
           </li>
+
           <li id="oferedu">
             Oferta Educativa <span class="icon-down-dir"></span>
             <ul class="submenu">
-              <li><a href="">Licenciaturas</a></li>
-              <li><a href="ingenierias.html">Ingenierías</a></li>
-              <li><a href="">Posgrado </a></li>
-              <li><a href="">Doctorados</a></li>
-              <li><a href="">Diplomados</a></li>
-              <li><a href="">Planta Docente</a></li>
+              <li>
+                <a href="../SubModulos/licenciaturas.html">Licenciaturas</a>
+              </li>
+              <li>
+                <a href="../SubModulos/ingenierias.html">Ingenierías</a>
+              </li>
+              <li><a href="../SubModulos/Posgrado.html">Posgrado </a></li>
+              <li><a href="../SubModulos/Doctorados.html">Doctorados</a></li>
+              <li><a href="../SubModulos/Diplomados.html">Diplomados</a></li>
             </ul>
           </li>
 
           <li id="alum">
             Alumnos<span class="icon-down-dir"></span>
             <ul class="submenu">
-              <li><a href="../SubModulos/educacion-dual.html">Educación Dual</a></li>
-              <li><a href="">Nodos</a></li>
-              <li><a href="SubModulos/Becas.html">Becas</a></li>
-              <li><a href="">Calendario Escolar</a></li>
+              <li>
+                <a href="../SubModulos/educacion-dual.html">Educación Dual</a>
+              </li>
+              <li><a href="">Nodos Educativos Productivos</a></li>
+              <li><a href="Becas.html">Becas</a></li>
+              <li>
+                <a href="../SubModulos/CalendarioEscolar.html">Calendario Escolar</a>
+              </li>
               <li><a href="">Servicio Social</a></li>
-              <li><a href="">Residencia Profecional</a></li>
-              <li><a href="">Seguro Estudiantes</a></li>
+              <li><a href="">Residencia Profesional</a></li>
               <li><a href="">Titulación</a></li>
             </ul>
           </li>
           <li id="conoc">
             Conócenos <span class="icon-down-dir"></span>
             <ul class="submenu">
-              <li><a href="/SubModulos/Mision-vison.html">Misión y Visión</a></li>
+              <li>
+                <a href="SubModulos/Mision-vision.html">Misión y Visión</a>
+              </li>
               <li><a href="">Objetivos</a></li>
               <li><a href="">Historia</a></li>
               <li><a href="">Directorio</a></li>
@@ -128,108 +172,950 @@
             Trámites y Servicios
             <span class="icon-down-dir"></span>
             <ul class="submenu">
-              <li><a href="http://www.ipomex.org.mx/portal.htm">Transparencia</a></li>
-              <li><a href="">Mejora Regulatoria</a></li>
+              <li>
+                <a href="http://www.ipomex.org.mx/portal.htm">Transparencia</a>
+              </li>
+              <li><a href="#">Mejora Regulatoria</a></li>
             </ul>
           </li>
-          <li id="face"><a class="navegadores"
-              href="https://www.facebook.com/pg/TECVILLAGUERRERO/photos/?ref=page_internal" target="_blank"><samp
-                class="icon-facebook-circled-1"></samp></a></li>
-          <li id="tw"><a class="navegadores" href="https://twitter.com/tesvgmex?lang=es"><span
-                class="icon-twitter-circled" target="_blank"></span></a></li>
-          <li id="inst"><a class="navegadores" href="https://www.instagram.com/explore/tags/tesvg/"
-              target="_blank"><span class="icon-instagram-1"></span></a></li>
-          <li id="yout"><a class="navegadores" href="https://www.youtube.com/channel/UC86qWckboUiqI6Dv0HBjWww"
-              target="_blank"><span class="icon-youtube-play"></span></a></li>
+          <li id="face">
+            <a class="navegadores" href="https://www.facebook.com/pg/TECVILLAGUERRERO/photos/?ref=page_internal"
+              target="_blank"><samp class="icon-facebook-circled-1"></samp></a>
+          </li>
+          <li id="tw">
+            <a class="navegadores" href="https://twitter.com/tesvgmex?lang=es"><span class="icon-twitter-circled"
+                target="_blank"></span></a>
+          </li>
+          <li id="inst">
+            <a class="navegadores" href="https://www.instagram.com/explore/tags/tesvg/" target="_blank"><span
+                class="icon-instagram-1"></span></a>
+          </li>
+          <li id="yout">
+            <a class="navegadores" href="https://www.youtube.com/channel/UC86qWckboUiqI6Dv0HBjWww" target="_blank"><span
+                class="icon-youtube-play"></span></a>
+          </li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <!-- ---------------------------------------------------------------------------------------- -->
-    <!-- Apartado Sobre Todas las ingenierias-->
-    <!-- 1 Ingenieria en sistemas computacionales -->
-    <div class="cont-general">
-      <div class="cont-titulo">
-        <h1 class="titulo-principal">Becas</h1>
+    <section class="home">
+      <article class="hero-image" style="
+            --hero-image: url(../SubModulos/assets/becas.jpg);
+            --hero-attachment: fixed;
+          ">
+        <aside class="hero-image-opacity" style="--hero-opacity-color: rgb(0, 0, 0, 0.5)">
+          <div class="hero-image-content">
+            <h2 class="hero-image-title" style="--hero-text-color: #fff; font-family: 'Bebas Neue'">
+              B E C A S
+            </h2>
+          </div>
+        </aside>
+      </article>
+    </section>
+    <section class="sedes-becas">
+      <div class="job-becas">
+        <h2>BECAS</h2>
+        <p>Consulta las becas disponibles en tu institución</p>
       </div>
-      <!-- apartado de la barra azul -->
-      <div class="Cont-subti-ing">
-        <h3 class="subt-ing">Beca de manutencion</h3>
+      <div class="dudas-becas">
+        <h2>BENITO JUAREZ</h2>
+        <p>
+          Te sugerimos registrarte al portal<em><a href="https://subes.becasbenitojuarez.gob.mx/"
+              target="_blank">SUBES</a></em>para la beca Jovenes Escribiendo El Futuro
+        </p>
       </div>
-      <!-- Apartado de la imagen -->
-      <!-- <div class="cont-images"> -->
-      <img src="../images/img-ingenierias/ing_sistema.jpg" class="images-generales">
-      <!-- </div> -->
-      <!-- Apartado de todos los tecnologicos -->
-      <div class="cont-todos-tec">
-        <h3 class="tecnologicos"><a class="navegar-tec" href="Becas-manutencion-tevg.html"> Tecnologico de Estudios Superiores de Villa
-            Guerrero</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Valle de
-            Bravo</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Ecatepec</a>
-        </h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de
-            Tianguistenco</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de .........</a>
-        </h3>
+      <div class="benito-becas">
+        <h2>RECOMENDACIONES</h2>
+        <p>
+          Si necesitas información sobre algun programa, te invitamos a mandar
+          un email a tu institución
+        </p>
       </div>
-    </div>
+    </section>
+    <section class="perfiles">
+      <div class="accordion" id="accordionExample">
+        <!--2. Ingeniería Aeronáutica -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+              Tecnologico De Estudios Superiores De Chalco
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <section class="becas">
+                <div class="summary">
+                  <h5>TESCHA</h5>
+                  <p>
+                    Aquí podrás encontrar todas las convocatorias de becas
+                    vigentes, así como información relacionada a los procesos
+                    de cada una de ellas.
+                  </p>
+                </div>
+                <div class="cont-todos-tec">
+                  <div class="icon" style="text-align: center">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <svg version="1.1" id="Icons" width="90" height="90" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+                      style="enable-background: new 0 0 32 32" xml:space="preserve">
+                      <style type="text/css">
+                        .st0 {
+                          fill: none;
+                          stroke: #000000;
+                          stroke-width: 2;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-miterlimit: 10;
+                        }
+                      </style>
+                      <circle class="st0" cx="22" cy="19" r="4" />
+                      <polyline class="st0" points="25,22 25,31 22,30 19,31 19,22 " />
+                      <line class="st0" x1="7" y1="11" x2="18" y2="11" />
+                      <line class="st0" x1="7" y1="15" x2="12" y2="15" />
+                      <polyline class="st0" points="19,26 3,26 3,6 29,6 29,26 25,26 " />
+                    </svg>
+                    <h4>BECAS</h4>
+                  </div>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="../archivos/MATERIAL DE APOYO SUBES.rar" download target="_blank">
+                      Material de Apoyo Subes</a>
+                  </h4>
 
-    <!-- 1 Ingenieria en Electronica -->
-    <div class=".cont-general">
-      <!-- apartado de la barra azul -->
-      <div class="Cont-subti-ing">
-        <h3 class="subt-ing">Beca de excelencia</h3>
-      </div>
-      <!-- Apartado de la imagen -->
-      <!-- <div class="cont-images"> -->
-      <img src="../images/img-ingenierias/ing-electronic.jpg" class="images-generales">
-      <!-- </div> -->
-      <!-- Apartado de todos los tecnologicos -->
-      <div class="cont-todos-tec">
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Villa
-            Guerrero</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Valle de
-            Bravo</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Ecatepec</a>
-        </h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de
-            Tianguistenco</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de .........</a>
-        </h3>
-      </div>
-    </div>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSeCj5iIvbL1Qx5g0eMi2T_2oQd3SPWdUVlvK5p3FSv2Nz2U2g/viewform"
+                      target="_blank">Semillero de Talento para Estudiantes de Educación
+                      Superior con Discapacidad</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="https://mextudia.com/becas/#nivel-superior" target="_blank">Catálogo de
+                      Becas del Instituto de la Joventud</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="https://buscador.becasbenitojuarez.gob.mx/consulta/"
+                      target="_blank">Consulta de Emisiones de Pago Jovenes Escribiendo el
+                      Futuro</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="http://tescha.edomex.gob.mx/sites/tescha.edomex.gob.mx/files/files/Becas/Convocatoria_Extendida_2_0.pdf"
+                      target="_blank">Beca Joventudes por la Pacificación</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="https://buscador.becasbenitojuarez.gob.mx/escuelas/"
+                      target="_blank">Buscador de Escuelas Susceptibles de Atención</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="http://tescha.edomex.gob.mx/sites/tescha.edomex.gob.mx/files/files/Becas/convocatoria_dual_dictaminada_4-08-22.pdf"
+                      target="_blank">Beca de Educación Dual EDOMEX</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="http://tescha.edomex.gob.mx/sites/tescha.edomex.gob.mx/files/files/Becas/BECA%20CIENCIA%20EDOM%C3%89X%2022%20SEGUNDA%20PROMOCION.pdf"
+                      target="_blank">Beca Ciencia - EDOMEX (Segunda Promoción)</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="https://cn.becasbenitojuarez.gob.mx/contraloria-web/"
+                      target="_blank">Registro a Representaciones de Contraloria Social</a>
+                  </h4>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <!--3. Ingeniería Ambiental -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+              Tecnologico De Estudios Superiores De Chicoalpan
+            </button>
+          </h2>
+          <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingAmbi1.jpg" id="img1" />
+                <img src="../images/img-ingenierias/ingAmbi2.jpg" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  Es un profesional competente que propone alternativas de
+                  solución sustentable a los problemas ambientales, a partir
+                  del desarrollo y aplicación de tecnologías de remediación,
+                  preservación y conservación de suelo, agua y atmósfera.
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://www.tecnologicodecoacalco.edu.mx/TESCO/alumnos/carreras.htm"
+                    target="_blank">
+                    Tecnologico de Estudios Superiores de Coacalco</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesi.org.mx/oferta_educativa.html" target="_blank">
+                    Tecnologico de Estudios Superiores de Ixtapaluca</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesoem.edomex.gob.mx/ambiental" target="_blank">
+                    Tecnologico de Estudios Superiores de Oriente del Estado
+                    de México</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://test.edomex.gob.mx/node/217" target="_blank">
+                    Tecnologico de Estudios Superiores de Tianguistenco</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--4. Ingeniería Biomédica-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading34">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse34" aria-expanded="false" aria-controls="collapse34">
+              Tecnologico De Estudios Superiores De Chimalhuacán
+            </button>
+          </h2>
+          <div id="collapse34" class="accordion-collapse collapse" aria-labelledby="heading34"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingBiomed1.jpg" id="img1" />
+                <img src="../images/img-ingenierias/ingBiomed2.jpg" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  Aplicación de los conocimientos en Ingeniería para apoyar
+                  las soluciones de los problemas en el área de la salud.
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesi.org.mx/oferta_educativa.html" target="_blank">
+                    Tecnologico de Estudios Superiores de Ixtapaluca</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--5. Ingeniería Bioquímica -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading31">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse31" aria-expanded="false" aria-controls="collapse31">
+              Tecnologico De Estudios Superiores De Coacalco
+            </button>
+          </h2>
+          <div id="collapse31" class="accordion-collapse collapse" aria-labelledby="heading31"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingBioqui1.jpg" id="img1" />
+                <img src="../images/img-ingenierias/ingBioqui2.jpg" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  Es una profesión que trabaja en el aprovechamiento
+                  inteligente, la transformación e industrialización de
+                  sistemas biológicos como plantas, animales, microorganismos
+                  y moléculas de origen y actividad biológica.
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://www.tese.edu.mx/tese2010/loader.aspx?n=WT4KU0OLOZ"
+                    target="_blank">
+                    Tecnologico de Estudios Superiores de Ecatepec</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--6. Ingeniería Civil -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading17_">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse17_" aria-expanded="false" aria-controls="collapse17_">
+              Tecnologico De Estudios Superiores De Cuatitlán Izcalli
+            </button>
+          </h2>
+          <div id="collapse17_" class="accordion-collapse collapse" aria-labelledby="heading17_"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingCivil1.webp" id="img1" />
+                <img src="../images/img-ingenierias/ingCivil2.webp" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  Un Ingeniero Civil es un profesional capacitado para
+                  contribuir en diseño, planeación, control y mantenimiento de
+                  obras y proyectos de las infraestructuras, utilizando
+                  diferentes tecnologías para el desarrollo de centros, tanto
+                  urbanos como rurales.
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://www.tecnologicodecoacalco.edu.mx/TESCO/acerca/carreras.htm"
+                    target="_blank">
+                    Tecnologico de Estudios Superiores de Coacalco</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://teshuixquilucan.edomex.gob.mx/ic" target="_blank">
+                    Tecnologico de Estudios Superiores de Huixquilucan</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesji.edomex.gob.mx/ingenieria-civil" target="_blank">
+                    Tecnologico de Estudios Superiores de Jilotepec</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://tessfp.edomex.gob.mx/ingenieria_civil" target="_blank">
+                    Tecnologico de Estudios Superiores de San Felipe Del
+                    Progreso</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesvb.edomex.gob.mx/node/216" target="_blank">
+                    Tecnologico de Estudios Superiores de Valle de Bravo</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--8. Ingeniería Eléctrica -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading18">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+              Tecnologico De Estudios Superiores De Ecatepec
+            </button>
+          </h2>
+          <div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingElectric1.jpg" id="img1" />
+                <img src="../images/img-ingenierias/ingElectric2.jpg" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  El ingeniero eléctrico electrónico es el profesional capaz
+                  de crear, diseñar y generar tecnología; así como de,
+                  innovar, planear y poner en operación sistemas eléctricos y
+                  electrónicos.
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesji.edomex.gob.mx/ingenieria-electrica" target="_blank">
+                    Tecnologico de Estudios Superiores de Jilotepec</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesvb.edomex.gob.mx/node/216" target="_blank">
+                    Tecnologico de Estudios Superiores de Valle de Bravo</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--9. ING ELECTROMECANICA -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              Tecnologico De Estudios Superiores De Huixquilucan
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingElecme1.jpg" id="img1" />
+                <img src="../images/img-ingenierias/ingElecme2.jpg" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  El ingeniero electromecánico proyecta, construye, instala y
+                  mantiene sistemas: mecánicos, térmicos y de generación,
+                  trasmisión, distribución de energía; componentes e
+                  instalaciones para su utilización, mejoramiento y
+                  optimización para su aprovechamiento.
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://tescha.edomex.gob.mx/ing-electromecanica" target="_blank">
+                    Tecnologico de Estudios Superiores de Chalco</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://www.tecnologicodecoacalco.edu.mx/TESCO/acerca/carreras.htm"
+                    target="_blank">
+                    Tecnologico de Estudios Superiores de Coacalco</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesjo.edomex.gob.mx/ielectronica" target="_blank">
+                    Tecnologico de Estudios Superiores de Jocotitlán</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--10. Ingeniería Electrónica -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading10">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+              Tecnologico De Estudios Superiores De Ixtapaluca
+            </button>
+          </h2>
+          <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <section class="becas">
+                <div class="summary">
+                  <h5>TESCHA</h5>
+                  <p>
+                    Aquí podrás encontrar todas las convocatorias de becas
+                    vigentes, así como información relacionada a los procesos
+                    de cada una de ellas.
+                  </p>
+                </div>
+                <div class="cont-todos-tec">
+                  <div class="icon" style="text-align: center">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <svg version="1.1" id="Icons" width="90" height="90" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+                      style="enable-background: new 0 0 32 32" xml:space="preserve">
+                      <style type="text/css">
+                        .st0 {
+                          fill: none;
+                          stroke: #000000;
+                          stroke-width: 2;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-miterlimit: 10;
+                        }
+                      </style>
+                      <circle class="st0" cx="22" cy="19" r="4" />
+                      <polyline class="st0" points="25,22 25,31 22,30 19,31 19,22 " />
+                      <line class="st0" x1="7" y1="11" x2="18" y2="11" />
+                      <line class="st0" x1="7" y1="15" x2="12" y2="15" />
+                      <polyline class="st0" points="19,26 3,26 3,6 29,6 29,26 25,26 " />
+                    </svg>
+                    <h4>BECAS</h4>
+                  </div>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="../archivos/MATERIAL DE APOYO SUBES.rar" download target="_blank">
+                      Material de Apoyo Subes</a>
+                  </h4>
 
-    <!-- 1 Ingenieria en Electronica -->
-    <div class=".cont-general">
-      <!-- apartado de la barra azul -->
-      <div class="Cont-subti-ing">
-        <h3 class="subt-ing">Beca de servicio social</h3>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSeCj5iIvbL1Qx5g0eMi2T_2oQd3SPWdUVlvK5p3FSv2Nz2U2g/viewform"
+                      target="_blank">Semillero de Talento para Estudiantes de Educación
+                      Superior con Discapacidad</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="https://mextudia.com/becas/#nivel-superior" target="_blank">Catálogo de
+                      Becas del Instituto de la Joventud</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="https://buscador.becasbenitojuarez.gob.mx/consulta/"
+                      target="_blank">Consulta de Emisiones de Pago Jovenes Escribiendo el
+                      Futuro</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="http://tescha.edomex.gob.mx/sites/tescha.edomex.gob.mx/files/files/Becas/Convocatoria_Extendida_2_0.pdf"
+                      target="_blank">Beca Joventudes por la Pacificación</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="https://buscador.becasbenitojuarez.gob.mx/escuelas/"
+                      target="_blank">Buscador de Escuelas Susceptibles de Atención</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="http://tescha.edomex.gob.mx/sites/tescha.edomex.gob.mx/files/files/Becas/convocatoria_dual_dictaminada_4-08-22.pdf"
+                      target="_blank">Beca de Educación Dual EDOMEX</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="http://tescha.edomex.gob.mx/sites/tescha.edomex.gob.mx/files/files/Becas/BECA%20CIENCIA%20EDOM%C3%89X%2022%20SEGUNDA%20PROMOCION.pdf"
+                      target="_blank">Beca Ciencia - EDOMEX (Segunda Promoción)</a>
+                  </h4>
+                  <h4 class="tecnologicos">
+                    <a class="navegar-tec" href="https://cn.becasbenitojuarez.gob.mx/contraloria-web/"
+                      target="_blank">Registro a Representaciones de Contraloria Social</a>
+                  </h4>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- Apartado de la imagen -->
-      <!-- <div class="cont-images"> -->
-      <img src="../images/img-ingenierias/ing_agricol_suste.jpg" class="images-generales">
-      <!-- </div> -->
-      <!-- Apartado de todos los tecnologicos -->
-      <div class="cont-todos-tec">
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Villa
-            Guerrero</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Valle de
-            Bravo</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de Ecatepec</a>
-        </h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de
-            Tianguistenco</a></h3>
-        <h3 class="tecnologicos"><a class="navegar-tec" href="#"> Tecnologico de Estudios Superiores de .........</a>
-        </h3>
+      <div class="accordion" id="accordionExample">
+        <!--11. Ingeniería en Administración -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading11">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+              Tecnologico De Estudios Superiores De Jilotepec
+            </button>
+          </h2>
+          <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingAdmon1.png" id="img1" />
+                <img src="../images/img-ingenierias/ingAdmon2.png" id="img2" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--12. Ingeniería en Animación Digital y Efectos Visuales -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+              Tecnologico De Estudios Superiores De Jocotitlán
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingAniVis1.jpg" id="img1" />
+                <img src="../images/img-ingenierias/ingAniVis2.jpg" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  Es un especialista en modelar, animar, desarrollar y crear
+                  contenidos multimedia y efectos visuales para la industria
+                  publicitaria, del entretenimiento digital y sectores como la
+                  ciencia, educación y la medicina, utilizando herramientas de
+                  cómputo de vanguardia.
+                </p>
+                >
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://teschi.edu.mx/alumnos/oferta_educativa/animacion/"
+                    target="_blank">
+                    Tecnologico de Estudios Superiores de Chimalhuacán</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesjo.edomex.gob.mx/ianimacion" target="_blank">
+                    Tecnologico de Estudios Superiores de Jocotitlán</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--7. ING DESARROLLO COMUNITARIO -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              Tecnologico De Estudios Superiores De Oriente Del Estado De
+              México
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingdescom1.jfif" id="img1" />
+                <img src="../images/img-ingenierias/ingDesCom2.jfif" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  Realizar diagnósticos comunitarios que permitan detectar y
+                  priorizar necesidades en los aspectos económico, social,
+                  productivo, tecnológico y ambiental en las comunidades.
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://teschicoloapan.edomex.gob.mx/ingenieria_desarrollo_comunitario"
+                    target="_blank">
+                    Tecnologico de Estudios Superiores de Chicoalpan</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--1.  Energias renovables -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+              Tecnologico De Estudios Superiores De San Felipe Del Progreso
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingEnReno1.jpg" id="img1" />
+                <img src="../images/img-ingenierias/ingEnReno2.jpg" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  La profesión que se ocupa del diseño, instalación y
+                  mantenimiento de los sistemas que funcionan y aprovechan la
+                  energía solar, eólica, hidráulica, bioenergía y maremotriz.
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <div class="tecnologicos-bg">
+                  <h5 class="tecnologicos">
+                    <a class="navegar-tec" href="http://teschicoloapan.edomex.gob.mx/ingenieria_energias_renovables"
+                      target="_blank">
+                      Tecnologico de Estudios Superiores de Chicoalpan</a>
+                  </h5>
+                  <h5 class="tecnologicos">
+                    <a class="navegar-tec" href="http://tesoem.edomex.gob.mx/ingenieria_en_energias_renovables"
+                      target="_blank">
+                      Tecnologico de Estudios Superiores de Oriente del Estado
+                      de México</a>
+                  </h5>
+                  <h5 class="tecnologicos">
+                    <a class="navegar-tec" href="http://tessfp.edomex.gob.mx/ingenieria_en_energias_renovables"
+                      target="_blank">
+                      Tecnologico de Estudios Superiores de San Felipe del
+                      Progreso</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--13. Ingeniería en Gestión Empresarial -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading9_">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse9_" aria-expanded="false" aria-controls="collapse9_">
+              Tecnologico De Estudios Superiores De Tianguistenco
+            </button>
+          </h2>
+          <div id="collapse9_" class="accordion-collapse collapse" aria-labelledby="heading9_"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingGest1.jpg" id="img1" />
+                <img src="../images/img-ingenierias/ingGest2.jpg" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  Es un profesional capaz de: Desarrollar y aplicar
+                  habilidades directivas y la ingeniería en el diseño,
+                  creación, gestión, desarrollo, fortalecimiento e innovación
+                  de las organizaciones, con una orientación sistémica y
+                  sustentable para la toma de decisiones en forma efectiva.
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://www.tecnologicodecoacalco.edu.mx/TESCO/alumnos/carreras.htm"
+                    target="_blank">
+                    Tecnologico de Estudios Superiores de Coacalco</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://tesci.edomex.gob.mx/ige" target="_blank">
+                    Tecnologico de Estudios Superiores de Cuatitlán Izcalli</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://www.tese.edu.mx/tese2010/loader.aspx?n=WT4KU0OLOZ"
+                    target="_blank">
+                    Tecnologico de Estudios Superiores de Ecatepec</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesjo.edomex.gob.mx/igestion_empresarial" target="_blank">
+                    Tecnologico de Estudios Superiores de Jocotitlán</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--14. Ingeniería en Industrias Alimentarias -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading20">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+              Tecnologico De Estudios Superiores De Valle De Bravo
+            </button>
+          </h2>
+          <div id="collapse20" class="accordion-collapse collapse" aria-labelledby="heading20"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingIndAli1.webp" id="img1" />
+                <img src="../images/img-ingenierias/ingIndAli2.webp" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  Aplica e innova técnicas tradicionales y emergentes para la
+                  conservación de los alimentos. Selecciona empaques para
+                  preservar y comercializar alimentos. Inspecciona, controla y
+                  evalúa procesos, equipo e instalaciones para asegurar la
+                  inocuidad y calidad en la industria alimentaria.
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec"
+                    href="http://tessfp.edomex.gob.mx/oferta-educativa/ingenieria-indrustrias-alimentarias"
+                    target="_blank">
+                    Tecnologico de Estudios Superiores de San Felipe Del
+                    Progreso</a>
+                </h5>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="https://tesvg.edomex.gob.mx/alimentarias" target="_blank">
+                    Tecnologico de Estudios Superiores de Villa Guerrero</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Ingeniería en Innovación Agrícola Sustentable -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading21">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+              Tecnologico De Estudios Superiores de Villa Guerrero
+            </button>
+          </h2>
+          <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container-img">
+                <img src="../images/img-ingenierias/ingIndust1.jpg" id="img1" />
+                <img src="../images/img-ingenierias/ingIndust2.jpg" id="img2" />
+                <!-- <img src="../images/img-ingenierias/img_sistema3.jpg" id="img3"> -->
+              </div>
+              <div class="summary">
+                <h5>Resumen:</h5>
+                <p>
+                  La Ingeniería Industrial tiene como objetivo planificar,
+                  gestionar y proponer sistemas de procesos industriales. Es
+                  la encargada de administrar los sistemas de gestión en base
+                  a la evaluación y análisis de las problemáticas productivas
+                  basada en evidencia e indicadores
+                </p>
+              </div>
+              <div class="cont-todos-tec">
+                <div class="icon" style="text-align: center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor"
+                    class="bi bi-journals" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />
+                    <path
+                      d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
+                  </svg>
+                  <h4>SEDES</h4>
+                </div>
+                <h5 class="tecnologicos">
+                  <a class="navegar-tec" href="http://tescha.edomex.gob.mx/ing-endustrial" target="_blank">
+                    Tecnologico de Estudios Superiores de Chalco</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <section id="contacto" class="contact section">
+      <div class="container">
+        <div class="formulario-dudas">
+          <h2>¿QUIERES MAS INFORMACION?</h2>
+        </div>
+        <form action="" class="contact-form box-shadow-1">
+          <input type="text" name="name" placeholder="Ingresa tu nombre *"
+            title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required />
+          <input type="email" name="email" placeholder="Ingresa tu correo *" title="Email incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required />
+          <input type="number" name="number" placeholder="Ingresa tu numero celular *" title="Numero incorrecto"
+            pattern="^[0-9]+$" required />
+          <select name="select" class="select">
+            <option value="">---- Selecciona una institución ----</option>
+            <option value="edgar.pgc.estudiante@gmail.com">
+              Correo de Edgar
+            </option>
+            <!-- <option value="jorocho43@hotmail.com">Correo Dos</option> -->
+            <option value="victoruaem@gmail.com">Correo de Victor</option>
+          </select>
+          <input type="text" id="resultado" name="result" placeholder="---- Selecciona una institución ----" disabled />
+          <textarea name="comments" id="" cols="50" rows="10"
+            placeholder="Ej. Me gustaria saber más información sobre... *"></textarea>
 
+          <div class="contact-form-loader text-center none">
+            <img src="../images/loader.svg" alt="Enviando..." />
+          </div>
+          <input class="btn-enviar" type="submit" value="ENVIAR MENSAJE" />
+        </form>
+        <article class="modal" id="gracias">
+          <div class="modal-content">
+            <article class="contact-form-response">
+              <h3>
+                ¡Muchas gracias! <br />
+                Revisa tu correo con frecuencia
+              </h3>
+              <h5>
+                En caso de no recibir respuesta<br />
+                Te aconsejamos ir a la institucion de tu interés
+              </h5>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z" />
+                <path
+                  d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z" />
+                <path
+                  d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z" />
+              </svg>
+            </article>
+          </div>
+        </article>
+      </div>
+    </section>
   </main>
+  <div data-include="../componentes/footer.html"></div>
+  <button class="scroll-top-btn hidden">&#11014;</button>
   <script src="../js/jquery.js"></script>
+  <script src="../js/index.js"></script>
   <script src="../js/script.js"></script>
   <script src="../js/main.js"></script>
+  <script src="../js/acordion.js"></script>
+  <script src="../js/form.js"></script>
 </body>
 
 </html>
