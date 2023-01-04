@@ -7,10 +7,12 @@
   <title>Inicio | TESVG</title>
   <!-- Importar icono -->
   <link rel="icon" type="image/png" href="../images/IconoPagina.png" />
-  <link rel="stylesheet" href="EstilosGeneral.css" />
+  <link rel="stylesheet" href="../css/style.css">
+  <!--<link rel="stylesheet" href="EstilosGeneral.css" />-->
   <link rel="stylesheet" href="Estilo-Ingenierias.css" />
   <!-- Importar los iconos peque;os del menu -->
   <link rel="stylesheet" href="../iconos/css/fontello.css" />
+  <script src="/libreria/include-html.js"></script>
 </head>
 
 <body>
@@ -23,14 +25,9 @@
       <!-- Etiqueta que aparecera cuando se haga mas peqeuña la ventana -->
       <h2>Servicio Social</h2>
       <!-- Imporntacion de nuestra imagen de logo -->
-      <div>
-        <div id="cont-logos">
-          <a href="https://www.gob.mx/sep"><img id="edu" src="../images/images_cabecera/educacion.png" /></a>
-          <a href="https://www.tecnm.mx/"><img id="tex" src="../images/images_cabecera/tecmex.png" /></a>
-          <a href="https://edomex.gob.mx/"><img id="gobedo" src="../images/images_cabecera/GobEdomex.png" /></a>
-          <a href="https://edomex.gob.mx/"><img id="edomex" src="../images/images_cabecera/edomex.png" /></a>
-        </div>
-      </div>
+      <!--LOGOS (logos-Header.html)-->
+      <div data-include="/componentes/logos-Header.html"></div>
+
       <!-- Creacion de los botones de navegacion -->
       <nav class="menu">
         <ul>
