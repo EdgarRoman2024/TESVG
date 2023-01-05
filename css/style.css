@@ -1010,6 +1010,8 @@ div.reset {
   text-align: center;
   padding: 1rem;
   padding-bottom: 0;
+  font-size: 1.2rem;
+
 }
 
 .container-info-dual p {
@@ -1033,6 +1035,7 @@ div.reset {
 
 .container-info-dual-three h5 {
   padding-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .container-info-dual-three li {
@@ -1068,7 +1071,424 @@ div.reset {
   transition: all 0.5s ease; 
   opacity: 0.8;
 }
+.sedes-becas {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.sedes-becas {
+  /* text-align: center; */
+  /* padding: 1rem; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  padding-bottom: 0;
+  display: flex;
+  margin: 1rem;
+  text-align: center;
+}
+.job-becas {
+  /* padding: 1rem; */
+  margin: 2rem;
+  width: 50%;
+  /* background-color: rgb(226, 226, 226);
+  box-shadow: 1px 1px 10px 3px rgb(2, 120, 255); */
+  border-left: #060763 solid thick;
+}
+.dudas-becas{
+  /* padding: 1rem; */
+  margin: 2rem;
+  width: 50%;
+  border-left: #060763 solid thick;
+}
+.dudas-becas a{
+  color: #000000;
+  padding: 0;
+}
+.benito-becas{
+  /* padding: 1rem; */
+  margin: 2rem;
+  width: 50%;
+  border-left: #060763 solid thick;
+}
+.summary h5{
+  font-size: 1.5rem;
+}
 
+/* ESTILOS */
+
+a.navegadores {
+  color: white;
+  text-decoration: none;
+}
+
+/* Contennedor general */
+.cont-general {
+  width: 100%;
+}
+
+/* contenedor del titulo  */
+.cont-titulo {
+  width: 100%;
+  /* margin: 50px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #060763;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-principal {
+  font-size: 60px;
+}
+
+/* Estilos franja azul */
+.Cont-subti-ing {
+  width: 100%;
+  background: #060763;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.images-generales {
+  width: 100%;
+  height: 250px;
+}
+
+#img1,
+#img2,
+#img3 {
+  width: 100%;
+  height: 250px;
+}
+
+.container-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container-img-posgrado{
+  width: 100%;
+}
+
+.container-img-electronic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Contenedor de todos los tecnologicos */
+.cont-todos-tec {
+  width: 100%;
+  color: #060763;
+  /* background-color: red; */
+
+}
+
+.tecnologicos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navegar-tec:hover {
+  background-color: #060763;
+  transition: all .3s ease;
+  color: white;
+  width: 95%;
+  text-align: center;
+  border-bottom: solid 0 #000;
+}
+
+.navegar-tec {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: solid 1px #000;
+  width: 90%;
+  font-weight: normal;
+}
+.cont-todos-tec{
+  padding-bottom: 2rem;
+}
+
+.formulario-dudas {
+  text-align: center;
+  margin: 2rem;
+}
+
+/* Acordion */
+
+.perfiles {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.perfiles-doctorado{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion {
+  padding: 1.5rem;
+  /* background-color: rgba(39, 143, 204, 0.8); */
+}
+/* IMAGEN DE INGENIERIAS */
+.hero-image {
+  background-image: var(--hero-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: var(--hero-attachment);
+}
+
+.hero-image-opacity {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--hero-opacity-color);
+}
+
+.hero-image-title {
+  color: var(--hero-text-color);
+  font-size: 7.5vw;
+  filter: drop-shadow(9px 2px 6px #000000);
+}
+
+.hero-image-title {
+  color: var(--hero-text-color);
+  font-size: 7.5vw;
+}
+
+.sedes {
+  /* text-align: center; */
+  /* padding: 1rem; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  padding-bottom: 0;
+  display: flex;
+  margin: 1rem;
+  text-align: center;
+}
+
+.job {
+  /* padding: 1rem; */
+  margin: 2rem;
+  width: 50%;
+  /* background-color: rgb(226, 226, 226);
+  box-shadow: 1px 1px 10px 3px rgb(2, 120, 255); */
+  border-left: #060763 solid thick;
+}
+.dudas {
+  /* padding: 1rem; */
+  margin: 2rem;
+  width: 50%;
+  border-left: #060763 solid thick;
+}
+
+.summary>h5 {
+  border-bottom: 2px solid #000;
+  padding-bottom: 1rem;
+}
+
+.summary>p {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.summary {
+  /* background-color: red; */
+  /* border-radius: 1rem; */
+  margin: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+/* FORMULARIO  */
+/*________Formulario_________*/
+.contact-form {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+}
+
+.contact-form>* {
+  padding: .5rem;
+  margin: 2rem auto;
+  display: block;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 0.85rem;
+  font-family: sans-serif;
+}
+
+.contact-form textarea {
+  border-radius: 15px;
+  border: thin solid #000;
+  resize: none;
+}
+
+.contact-form input {
+  padding-left: 0;
+  border: 0;
+  border-bottom: thin solid #000;
+}
+
+.contact-form input[type="submit"] {
+  margin-top: 0;
+  cursor: pointer;
+  transition: all .2s ease-out;
+}
+
+.contact-form input[type="submit"]:hover {
+  opacity: .75;
+}
+
+.contact-form * ::placeholder {
+  color: #000;
+}
+
+.contact-form-response {
+  padding: 1rem;
+  width: 400px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.contact-form-response svg {
+  margin-top: 2rem;
+  width: 4rem;
+  height: 4rem;
+  fill: #060763;
+}
+
+.modal#gracias:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.none {
+  display: none;
+}
+
+.box-shadow-1 {
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1rem;
+}
+
+.contact-form textarea,
+.contact-form-loader {
+  grid-column: span 2;
+}
+
+.contact-form input[type="submit"] {
+  margin-left: 0;
+}
+
+.btn-enviar {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #060763;
+}
+
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  transition: all 1s;
+}
+
+.modal-content {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+.more{
+  text-align: center;
+  padding: 1.4rem;
+  padding-bottom: 0;
+}
+.more a{
+  text-decoration: none;
+  color: #000;
+}
+.more a:hover{
+  color: rgb(0, 0, 0, 0.5);
+  transition: all .2s ease;
+}
+.delfin h5{
+  font-size: 1.5rem;
+  color: #000;
+  padding: 1rem;
+  font-weight: normal;
+}
+.delfin h4{
+color: #000;
+padding-top: 2rem;
+}
+.info-teschi{
+  padding: 1rem;
+}
+.info-teschi a{
+  color: #000;
+  padding: 0;
+}
+
+.requisitos-servicio{
+  border: solid 2px rgb(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.requisitos-servicio p{
+  text-align: justify;
+}
+.requisitos{
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.requisitos p{
+  padding: 1rem;
+}
+.container-info-dual-three ul{
+padding: 1rem;
+}
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
 @media screen and (max-width: 900px) {
@@ -1444,5 +1864,78 @@ div.reset {
   .info-dual-three {
     padding: 1rem;
 }
+body{
+  overflow-x: hidden;
+}
+.cont-general {
+  margin-top: 50px;
+}
 
+.perfiles {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.accordion {
+  padding-bottom: 0;
+  padding-top: 1rem;
+}
+
+.sedes {
+  padding-bottom: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+.job {
+  padding-right: 1rem;
+  margin: 1rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.dudas {
+  padding-right: 1rem;
+  margin: 1rem;
+  width: 100%;
+}
+.contact-form {
+  display: block;
+}
+.btn-enviar{
+  width: 100%;
+}
+.sedes-becas {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0;
+}
+.job-becas {
+  margin: 1rem;
+  width: 90%;
+}
+.dudas-becas{
+  margin: 1rem;
+  width: 90%;
+  border-left: #060763 solid thick;
+}
+.benito-becas{
+  margin: 1rem;
+  width: 90%;
+  border-left: #060763 solid thick;
+}
+.hero-image {
+  background-attachment:local;
+}
+.hero-image-opacity {
+  min-height: 30vh;
+}
+.requisitos{
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 }
