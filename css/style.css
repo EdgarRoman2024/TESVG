@@ -1005,6 +1005,10 @@ div.reset {
   border-radius: 20px;
   padding: 2rem;
 }
+.container-info-dual img{
+  margin: 0rem;
+  padding-bottom: 0%;
+}
 
 .container-info-dual h5 {
   text-align: center;
@@ -1222,7 +1226,7 @@ a.navegadores {
 
 .perfiles {
   width: auto;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
 }
 .perfiles-doctorado{
@@ -1271,8 +1275,9 @@ a.navegadores {
   /* font-family: Arial, Helvetica, sans-serif; */
   padding-bottom: 0;
   display: flex;
-  margin: 1rem;
+  margin: 0% -10% 0% -10%;
   text-align: center;
+  justify-content: center;
 }
 
 .job {
@@ -1893,13 +1898,15 @@ body{
   padding-right: 1rem;
   margin: 1rem;
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
 }
 
 .dudas {
   padding-right: 1rem;
   margin: 1rem;
   width: 100%;
+  margin-bottom: -1rem;
+  padding: 1rem;
 }
 .contact-form {
   display: block;
