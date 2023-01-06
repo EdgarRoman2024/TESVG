@@ -1519,6 +1519,12 @@ padding: 1rem;
   align-items: center;
   padding: 1rem;
 }
+.container-info-dual h6{
+  font-weight: normal;
+  text-align: center;
+  padding: .3rem;
+  border-bottom: solid thin #000;
+}
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
 @media screen and (max-width: 900px) {
