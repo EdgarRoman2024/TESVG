@@ -1012,7 +1012,7 @@ div.reset {
 }
 .container-info-dual div{
   margin: auto;
-  padding: 0% 5% 0% 5%;
+  padding: 2% 5% 0% 5%;
   display: flex;
   justify-content: space-around;
 }
@@ -1027,6 +1027,7 @@ div.reset {
 
 .container-info-dual p {
   text-align: justify;
+  font-size: x-large;
 }
 
 .title-dual {
@@ -1233,7 +1234,7 @@ a.navegadores {
 
 .perfiles {
   width: auto;
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 .perfiles-doctorado{
@@ -1282,9 +1283,8 @@ a.navegadores {
   /* font-family: Arial, Helvetica, sans-serif; */
   padding-bottom: 0;
   display: flex;
-  margin: 0% -10% 0% -10%;
+  margin: 1rem;
   text-align: center;
-  justify-content: center;
 }
 
 .job {
