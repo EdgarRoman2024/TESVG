@@ -1007,7 +1007,14 @@ div.reset {
 }
 .container-info-dual img{
   margin: 0rem;
-  padding-bottom: 0%;
+  width: 24rem;
+  border: ridge;
+}
+.container-info-dual div{
+  margin: auto;
+  padding: 0% 5% 0% 5%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .container-info-dual h5 {
