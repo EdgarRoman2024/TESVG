@@ -745,7 +745,7 @@ div.reset {
 .contenedores-of {
   width: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* Contenerdor LIC */
@@ -1283,11 +1283,8 @@ a.navegadores {
   /* font-family: Arial, Helvetica, sans-serif; */
   padding-bottom: 0;
   display: flex;
-<<<<<<< HEAD
   margin: 1rem;
-=======
   /* margin: 0% -10% 0% -10%; */
->>>>>>> 1094c9d5d6e78051facbeb4d7411ee0825d41106
   text-align: center;
 }
 
@@ -1505,7 +1502,6 @@ padding-top: 2rem;
 .container-info-dual-three ul{
 padding: 1rem;
 }
-<<<<<<< HEAD
 /*CONTENIDO DE APARTADO DE HISTORIA => Alumnos*/
 .sedes-historia{
   padding-bottom: 0;
@@ -1569,7 +1565,6 @@ padding: 1rem;
   border: ridge;
 }
 
-=======
 
 .residencia{
     margin: 2rem;
@@ -1601,7 +1596,6 @@ padding: 1rem;
   padding: .3rem;
   border-bottom: solid thin #000;
 }
->>>>>>> 1094c9d5d6e78051facbeb4d7411ee0825d41106
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
 @media screen and (max-width: 900px) {
