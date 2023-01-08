@@ -1560,6 +1560,8 @@ padding: 1rem;
   margin: 0% -79% 0% 21%;
   display: flex;
   padding: 2% 5% 0% 5%;
+  background: gainsboro;
+  border: ridge;
 }
 
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
