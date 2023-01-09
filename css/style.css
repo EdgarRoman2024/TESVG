@@ -1497,8 +1497,9 @@ padding: 1rem;
 
 .residencia{
     margin: 2rem;
-    width: 100%;
+    width: 95%;
     border-left: #060763 solid thick;
+    text-align: center;
 }
 
 .residencia p{
@@ -1524,6 +1525,17 @@ padding: 1rem;
   text-align: center;
   padding: .3rem;
   border-bottom: solid thin #000;
+}
+.icon-resquisitos{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: center;
+  align-items: center;
+}
+.icon-resquisitos h6{
+  font-weight: normal;
+  text-align: center;
+  border-bottom: solid thin #fff;
 }
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
@@ -1918,7 +1930,8 @@ body{
   padding-top: 1rem;
 }
 
-.sedes {
+
+.sedes-residensia {
   padding-bottom: 0;
   padding: 0;
   display: block;
@@ -1976,4 +1989,16 @@ body{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
+.residencia-rows {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.residencia{
+  margin: 2rem;
+  margin-bottom: 0;
+  width: 90%;
+  border-left: #060763 solid thick;
+}
+
 }
