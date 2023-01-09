@@ -745,7 +745,7 @@ div.reset {
 .contenedores-of {
   width: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* Contenerdor LIC */
@@ -1007,14 +1007,7 @@ div.reset {
 }
 .container-info-dual img{
   margin: 0rem;
-  width: 24rem;
-  border: ridge;
-}
-.container-info-dual div{
-  margin: auto;
-  padding: 2% 5% 0% 5%;
-  display: flex;
-  justify-content: space-around;
+  padding-bottom: 0%;
 }
 
 .container-info-dual h5 {
@@ -1027,7 +1020,6 @@ div.reset {
 
 .container-info-dual p {
   text-align: justify;
-  font-size: x-large;
 }
 
 .title-dual {
@@ -1283,9 +1275,9 @@ a.navegadores {
   /* font-family: Arial, Helvetica, sans-serif; */
   padding-bottom: 0;
   display: flex;
-  margin: 1rem;
   /* margin: 0% -10% 0% -10%; */
   text-align: center;
+  justify-content: center;
 }
 
 .job {
@@ -1502,69 +1494,6 @@ padding-top: 2rem;
 .container-info-dual-three ul{
 padding: 1rem;
 }
-/*CONTENIDO DE APARTADO DE HISTORIA => Alumnos*/
-.sedes-historia{
-  padding-bottom: 0;
-  display: flex;
-  margin: 1rem;
-  text-align: center;
-  justify-content: space-around;
-} 
-.perfiles-historia{
-  width: auto;
-  display: flex;
-  grid-template-columns: repeat(2, 1fr);
-}
-.acerca_de-tema{
-  width: 21%;
-  margin: auto;
-  padding: 3% 0% 0% 0%;
-  font-size: 3rem;
-  font-style: italic;
-}
-.dudas h2{
-  font-style: italic;
-}
-.job-historias{
-  margin: 2rem;
-  width: 50%;
-  /* background-color: rgb(226, 226, 226);
-  box-shadow: 1px 1px 10px 3px rgb(2, 120, 255); */
-  border-bottom: #000000 double;
-}
-.dudas-historias{
-  margin: 2rem;
-  width: 50%;
-  border-bottom: #000000 double;
-}
-.container-info-dual-historias2 div{
-  margin: auto;
-}
-.navegar-tec-historias {
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  font-size: 1.2rem;
-  border-bottom: solid 1px #000;
-  width: 90%;
-  font-weight: normal;
-}
-.navegar-tec-historias:hover {
-  background-color: #060763;
-  transition: all .3s ease;
-  color: white;
-  width: 90%;
-  text-align: center;
-  border-bottom: solid 1 #000;
-}
-.acercaDe-historias{
-  margin: 0% -79% 0% 21%;
-  display: flex;
-  padding: 2% 5% 0% 5%;
-  background: gainsboro;
-  border: ridge;
-}
-
 
 .residencia{
     margin: 2rem;
@@ -2014,7 +1943,6 @@ body{
   margin: 1rem;
   width: 90%;
   margin-bottom: 0rem;
-  
 }
 
 .dudas {
