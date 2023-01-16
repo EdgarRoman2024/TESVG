@@ -97,7 +97,7 @@ $(document).ready(function () {
 /* let menu = document.getElementsByClassName(".menu");*/
 
 window.addEventListener("click", function (e) {
-  console.log(e.target);
+  // console.log(e.target);
 });
 
 /* Hace que se habra el boton */

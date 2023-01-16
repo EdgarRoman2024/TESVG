@@ -9,8 +9,8 @@
             let valorOption = $select.value;
             // console.log(valorOption);
             var optionSelect = $select.options[$select.selectedIndex];
-            console.log("Opción:", optionSelect.text);
-            console.log("Valor:", optionSelect.value);
+            // console.log("Opción:", optionSelect.text);
+            // console.log("Valor:", optionSelect.value);
             correo = optionSelect.value;
             let  inputResult = d.querySelector('#resultado').value=(optionSelect.value)
           });
@@ -24,11 +24,11 @@
         })
             .then((res) => (res.ok ? res.json() : Promise.reject(res)))
             .then((json) => {
-                console.log(json);
+                // console.log(json);
                 location.hash = "#gracias";
                 $form.reset();
             }).catch((err) => {
-                console.log(err);
+                // console.log(err);
                 let message = err.statusText || "Ocurrió un error al enviar, intenta nuevamente";
                 $response.querySelector("h3").innerHTML = `Erro ${err.status}:${message}`;
             }).finally(() => {
