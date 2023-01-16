@@ -1285,7 +1285,7 @@ a.navegadores {
 
 .hero-image-title {
   color: var(--hero-text-color);
-  font-size: 7.5vw;
+  font-size: 6.0vw;
 }
 
 .sedes {
@@ -1682,6 +1682,38 @@ a.navegadores {
 .container-info-dual li{
   padding: .4rem;
   text-align: justify;
+}
+/*Contenido de Nodos Productivos*/
+.perfiles-nodos{
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.perfiles-nodos-acordeon {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.nodos-nombres{
+  font-size: x-large;
+  margin-left: auto;
+}
+.summary-nodos {
+  margin: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.info-actividad{
+  padding: 0% 1% 3% 1%;
+}
+.info-municipios{
+  padding: 0% 1% 3% 1%;
+}
+.info-municipios ul{
+  padding: revert;
 }
 
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
