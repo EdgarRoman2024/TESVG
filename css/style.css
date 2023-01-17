@@ -726,16 +726,15 @@ div.reset {
 
 .contenedores-info {
   padding: 0.5rem;
-}
-
-.contenedores-oferta-diplomado {
-  width: 50%;
-}
-
-.contenedor-diplomado {
   display: flex;
-  align-items: center;
+}
+.contenedor-diplomado{
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+.contenedores-dipl{
+  width: 50%;
 }
 
 .title-info h2 {
@@ -2216,5 +2215,8 @@ a.navegadores {
   border: 0;
   padding: .6rem;
   margin: 1rem;
+}
+.contenedores-dipl{
+  width: 100%;
 }
 }
