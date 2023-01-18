@@ -2325,6 +2325,11 @@ div.reset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .sedes {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   .informacion-msj {
     width: auto;
@@ -2414,8 +2419,6 @@ div.reset {
     padding-right: 0;
     margin: 1rem;
     width: 90%;
-    margin-bottom: -1rem;
-    /* padding: 1rem; */
   }
 
   .contact-form {
