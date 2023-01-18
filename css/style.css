@@ -726,16 +726,15 @@ div.reset {
 
 .contenedores-info {
   padding: 0.5rem;
-}
-
-.contenedores-oferta-diplomado {
-  width: 50%;
-}
-
-.contenedor-diplomado {
   display: flex;
-  align-items: center;
+}
+.contenedor-diplomado{
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+.contenedores-dipl{
+  width: 50%;
 }
 
 .title-info h2 {
@@ -796,6 +795,277 @@ div.reset {
   pointer-events: auto;
 }
 
+/* Contenerdor dual */
+.portfolio-card-DUAL {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+.portfolio-card-DUAL img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.portfolio-card-DUAL-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 72, 221, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.portfolio-card-DUAL-info h3 {
+  padding: .5rem;
+}
+
+.portfolio-card-DUAL:hover .portfolio-card-DUAL-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+
+/* Contenerdor NODOS */
+.portfolio-card-NODOS {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+.portfolio-card-NODOS img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+
+.portfolio-card-NODOS-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(221, 13, 131, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+
+}
+
+.portfolio-card-NODOS-info h3 {
+  padding: .5rem;
+}
+
+.portfolio-card-NODOS:hover .portfolio-card-NODOS-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+/* Contenerdor BECAS */
+.portfolio-card-BECAS {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+.portfolio-card-BECAS img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+
+.portfolio-card-BECAS-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(221, 121, 13, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+
+}
+
+.portfolio-card-BECAS-info h3 {
+  padding: .5rem;
+}
+
+.portfolio-card-BECAS:hover .portfolio-card-BECAS-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+/* Contenerdor CE */
+.portfolio-card-CE {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+.portfolio-card-CE img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+
+.portfolio-card-CE-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(221, 13, 13, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+
+}
+
+.portfolio-card-CE-info h3 {
+  padding: .5rem;
+}
+
+.portfolio-card-CE:hover .portfolio-card-CE-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+
+/* Contenerdor CES */
+.portfolio-card-CES {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+.portfolio-card-CES img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+
+.portfolio-card-CES-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(211, 221, 13, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+
+}
+
+.portfolio-card-CES-info h3 {
+  padding: .5rem;
+}
+
+.portfolio-card-CES:hover .portfolio-card-CES-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+
+/* Contenerdor REP */
+.portfolio-card-REP {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+.portfolio-card-REP img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+
+.portfolio-card-REP-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 221, 13, 0.5);
+  color: #fff;
+  padding: 1rem;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+
+}
+
+.portfolio-card-REP-info h3 {
+  padding: .5rem;
+}
+
+.portfolio-card-REP:hover .portfolio-card-REP-info {
+  opacity: 0.4;
+  pointer-events: auto;
+}
 /* Contenerdor POS */
 .portfolio-card-POS {
   position: relative;
@@ -2026,7 +2296,13 @@ a.navegadores {
   .portfolio-card-ING img,
   .portfolio-card-POS img,
   .portfolio-card-DOC img,
-  .portfolio-card-DIPL img {
+  .portfolio-card-DIPL img,
+  .portfolio-card-DUAL img,
+  .portfolio-card-NODOS img,
+  .portfolio-card-BECAS img,
+  .portfolio-card-CE img,
+  .portfolio-card-CES img,
+  .portfolio-card-REP img {
     border-radius: 10px;
   }
 
@@ -2034,7 +2310,13 @@ a.navegadores {
   .portfolio-card-ING-info,
   .portfolio-card-POS-info,
   .portfolio-card-DOC-info,
-  .portfolio-card-DIPL-info {
+  .portfolio-card-DIPL-info,
+  .portfolio-card-DUAL-info,
+  .portfolio-card-NODOS-info,
+  .portfolio-card-BECAS-info,
+  .portfolio-card-CE-info,
+  .portfolio-card-CES-info,
+  .portfolio-card-REP-info  {
     border-radius: 10px;
   }
 
@@ -2216,5 +2498,8 @@ a.navegadores {
   border: 0;
   padding: .6rem;
   margin: 1rem;
+}
+.contenedores-dipl{
+  width: 100%;
 }
 }
