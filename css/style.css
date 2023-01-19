@@ -1452,7 +1452,10 @@ div.reset {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
+.container-img-one{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 .container-img-posgrado {
   width: 100%;
 }
