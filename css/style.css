@@ -1984,7 +1984,10 @@ div.reset {
 .info-municipios ul{
   padding: revert;
 }
-
+.summary li{
+padding: .5rem;
+text-align: justify;
+}
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
 @media screen and (max-width: 900px) {
