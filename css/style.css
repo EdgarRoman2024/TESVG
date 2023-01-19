@@ -1988,6 +1988,68 @@ div.reset {
 padding: .5rem;
 text-align: justify;
 }
+/*Contenido del modulo de Historias*/
+.sedes-historia {
+  
+  display: flex;
+  padding: 1% 0% 1% 0%;
+  text-align: center;
+  justify-content: center;
+}
+.container-info-historia{
+  width: 90%;
+  border: solid 2px rgb(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: 2rem;
+}
+.container-info-historia img{
+  width: 100%;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+}
+.img-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+.img-center-other img{
+  width: 100%;
+}
+.navegar-tec-historia:hover {
+  background-color: #060763;
+  transition: all .3s ease;
+  color: white;
+  width: 95%;
+  text-align: center;
+  border-bottom: solid 0 #000;
+}
+.navegar-tec-historia {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: solid 1px #000;
+  width: 90%;
+  font-weight: normal;
+}
+.perfiles-historia{
+  width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  
+}
+.perfiles-historia p{
+  text-align: justify;
+}
+.title-info-historia h2{
+  padding: 1.5rem;
+  margin: 1rem;
+  border-bottom: #060763 solid thick;
+  text-align: center;
+}
+
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
 @media screen and (max-width: 900px) {
@@ -2506,5 +2568,12 @@ text-align: justify;
 }
 .contenedores-dipl{
   width: 100%;
+}
+.img-center{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  align-items: stretch;
+  justify-content: space-evenly;
 }
 }
