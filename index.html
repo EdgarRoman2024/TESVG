@@ -1,207 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio | TECNM</title>
+    <!-- Importar icono -->
+    <link rel="icon" type="image/png" href="images/IconoPagina.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/estiloslider.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="estilos-imagen-fondo.css" />
+    <!-- <link rel="stylesheet" href="./css/prueba.css"> -->
+    <!-- Importar los iconos peque;os del menu -->
+    <link rel="stylesheet" href="iconos/css/fontello.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inicio | TECNM</title>
-  <!-- Importar icono -->
-  <link rel="icon" type="image/png" href="images/IconoPagina.png" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/estiloslider.css" />
-  <link rel="stylesheet" href="css/font-awesome.css" />
-  <link rel="stylesheet" href="estilos-imagen-fondo.css">
-  <!-- <link rel="stylesheet" href="./css/prueba.css"> -->
-  <!-- Importar los iconos peque;os del menu -->
-  <link rel="stylesheet" href="iconos/css/fontello.css" />
+    <script src="libreria/include-html.js"></script>
+  </head>
 
-  <script src="libreria/include-html.js"></script>
-</head>
+  <body>
+    <header>
+      <!-- Contendedor de todo el menu -->
+      <div class="content-menu">
+        <!-- Creacion de nuestro boton para ociones cuando se haga mas pequeña la ventana -->
+        <input id="check" type="checkbox" />
+        <label for="check" class="toggle-button"> </label>
 
-<body>
-  <header>
+        <!-- Etiqueta que aparecera cuando se haga mas peqeuña la ventana -->
+        <h2 class="stdem">
+          <a href="index.html"
+            >Sistema de Tecnol&oacutegicos Descentralizados del Estado de
+            M&eacutexico</a
+          >
+        </h2>
 
-    <!-- Contendedor de todo el menu -->
-    <div class="content-menu">
-      <!-- Creacion de nuestro boton para ociones cuando se haga mas pequeña la ventana -->
-      <input id="check" type="checkbox" />
-      <label for="check" class="toggle-button">
-      </label>
+        <!-- Imporntacion de nuestra imagen de logo -->
+        <!--LOGOS (logos-Header.html)-->
+        <div data-include="componentes/logos-Header.html"></div>
 
-      <!-- Etiqueta que aparecera cuando se haga mas peqeuña la ventana -->
-      <h2 class="stdem"><a href="index.html">Sistema de Tecnol&oacutegicos Descentralizados del Estado de
-          M&eacutexico</a></h2>
+        <!-- Creacion de los botones de navegacion -->
+        <nav class="menu">
+          <ul>
+            <li id="hom">
+              <a class="navegadores" href="index.html"
+                ><span class="icon-home">Inicio</span></a
+              >
+            </li>
+            <li id="ssg1">
+              <a class="navegadores" href="SubModulos/Msj-Secretario.html">
+                Mensaje del Secretario</a
+              >
+            </li>
+            <li id="sede">
+              Sede <span class="icon-down-dir"></span>
+              <ul class="escuelas">
+                <li>
+                  <a
+                    target="_blank"
+                    href="http://tescha.edomex.gob.mx/"
+                    target="_blank"
+                    >Tecnol&oacutegico de Estudios Superiores de Chalco</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="http://teschicoloapan.edomex.gob.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de Chicoloapan</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="https://teschi.edu.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de Chimalhuacán</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="http://www.tecnologicodecoacalco.edu.mx/TESCO/INICIO/INICIO.php"
+                    >Tecnol&oacutegico de Estudios Superiores de Coacalco</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="http://tesci.edomex.gob.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de Cuatitlán
+                    Izcalli</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="http://www.tese.edu.mx/ccyt_redirect/"
+                    >Tecnol&oacutegico de Estudios Superiores de Ecatepec</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="http://teshuixquilucan.edomex.gob.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de Huixquilucan</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="https://tesi.org.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de Ixtapaluca</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="https://tesji.edomex.gob.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de Jilotepec</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="https://tesjo.edomex.gob.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de Jocotitlán</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="http://tesoem.edomex.gob.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores del Oriente del
+                    Estado de México
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://tessfp.edomex.gob.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de San Felipe del
+                    Progreso</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="https://test.edomex.gob.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de
+                    Tianguistenco</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="http://tesvb.edomex.gob.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de Valle de
+                    Bravo</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="https://tesvg.edomex.gob.mx/"
+                    >Tecnol&oacutegico de Estudios Superiores de Villa
+                    Guerrero</a
+                  >
+                </li>
+              </ul>
+            </li>
 
-      <!-- Imporntacion de nuestra imagen de logo -->
-      <!--LOGOS (logos-Header.html)-->
-      <div data-include="componentes/logos-Header.html"></div>
+            <li id="oferedu">
+              Oferta Educativa <span class="icon-down-dir"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="SubModulos/licenciaturas.html">Licenciaturas</a>
+                </li>
+                <li><a href="SubModulos/ingenierias.html">Ingenierías</a></li>
+                <li><a href="SubModulos/Posgrado.html">Posgrado </a></li>
+                <li><a href="SubModulos/Doctorados.html">Doctorados</a></li>
+                <li><a href="SubModulos/Diplomados.html">Diplomados</a></li>
+              </ul>
+            </li>
 
-      <!-- Creacion de los botones de navegacion -->
-      <nav class="menu">
-        <ul>
-          <li id="hom"><a class="navegadores" href="index.html"><span class="icon-home">Inicio</span></a></li>
-          <li id="ssg1"><a class="navegadores" href="SubModulos/Msj-Secretario.html">
-              Mensaje del Secretario</a>
-          </li>
-          <li id="sede">Sede <span class="icon-down-dir"></span>
-            <ul class="escuelas">
-              <li>
-                <a target="_blank" href="http://tescha.edomex.gob.mx/" target="_blank">Tecnol&oacutegico de Estudios
-                  Superiores de Chalco</a>
-              </li>
-              <li>
-                <a target="_blank" href="http://teschicoloapan.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores
-                  de
-                  Chicoloapan</a>
-              </li>
-              <li>
-                <a target="_blank" href="https://teschi.edu.mx/">Tecnol&oacutegico de Estudios Superiores de
-                  Chimalhuacán</a>
-              </li>
-              <li>
-                <a target="_blank"
-                  href="http://www.tecnologicodecoacalco.edu.mx/TESCO/INICIO/INICIO.php">Tecnol&oacutegico de Estudios
-                  Superiores de Coacalco</a>
-              </li>
-              <li>
-                <a target="_blank" href="http://tesci.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de
-                  Cuatitlán Izcalli</a>
-              </li>
-              <li>
-                <a target="_blank" href="http://www.tese.edu.mx/ccyt_redirect/">Tecnol&oacutegico de Estudios Superiores
-                  de Ecatepec</a>
-              </li>
-              <li>
-                <a target="_blank" href="http://teshuixquilucan.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores
-                  de
-                  Huixquilucan</a>
-              </li>
-              <li>
-                <a target="_blank" href="https://tesi.org.mx/">Tecnol&oacutegico de Estudios Superiores de
-                  Ixtapaluca</a>
-              </li>
-              <li>
-                <a target="_blank" href="https://tesji.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de
-                  Jilotepec</a>
-              </li>
-              <li>
-                <a target="_blank" href="https://tesjo.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de
-                  Jocotitlán</a>
-              </li>
-              <li>
-                <a target="_blank" href="http://tesoem.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores del
-                  Oriente del Estado
-                  de México </a>
-              </li>
-              <li>
-                <a target="_blank" href="http://tessfp.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de San
-                  Felipe del
-                  Progreso</a>
-              </li>
-              <li>
-                <a target="_blank" href="https://test.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de
-                  Tianguistenco</a>
-              </li>
-              <li>
-                <a target="_blank" href="http://tesvb.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de Valle
-                  de Bravo</a>
-              </li>
-              <li>
-                <a target="_blank" href="https://tesvg.edomex.gob.mx/">Tecnol&oacutegico de Estudios Superiores de Villa
-                  Guerrero</a>
-              </li>
-            </ul>
-          </li>
-
-          <li id="oferedu">
-            Oferta Educativa <span class="icon-down-dir"></span>
-            <ul class="submenu">
-              <li><a href="SubModulos/licenciaturas.html">Licenciaturas</a></li>
-              <li><a href="SubModulos/ingenierias.html">Ingenierías</a></li>
-              <li><a href="SubModulos/Posgrado.html">Posgrado </a></li>
-              <li><a href="SubModulos/Doctorados.html">Doctorados</a></li>
-              <li><a href="SubModulos/Diplomados.html">Diplomados</a></li>
-            </ul>
-          </li>
-
-          <li id="alum">
-            Alumnos<span class="icon-down-dir"></span>
-            <ul class="submenu">
-              <li><a href="SubModulos/educacion-dual.html">Educación Dual</a></li>
-              <li><a href="SubModulos/nodosProductivos.html">Nodos Educativos Productivos</a></li>
-              <li><a href="SubModulos/becas.html">Becas</a></li>
-              <li><a href="SubModulos/CalendarioEscolar.html">Calendario Escolar</a></li>
-              <li><a href="SubModulos/Servicio-Social.html">Servicio Social</a></li>
-              <li><a href="SubModulos/Residencia-Profesional.html">Residencia Profesional</a></li>
-              <li><a href="SubModulos/Titulacion.html">Titulación</a></li>
-            </ul>
-
-          </li>
-          <li id="conoc">
-            Conócenos <span class="icon-down-dir"></span>
-            <ul class="submenu">
-              <li><a href="SubModulos/Mision.html">Misión</a></li>
-              <li><a href="SubModulos/Vision.html">Visión</a></li>
-              <li><a href="SubModulos/objetivos.html">Objetivos</a></li>
-              <li><a href="SubModulos/historias.html">Historia</a></li>
-              <li><a href="/SubModulos/directorio.html">Directorio</a></li>
-
-            </ul>
-          </li>
-          <li id="tramser">
-            Trámites y Servicios
-            <span class="icon-down-dir"></span>
-            <ul class="submenu">
-              <li><a href="http://www.ipomex.org.mx/portal.htm">Transparencia</a></li>
-              <li><a href="#">Mejora Regulatoria</a></li>
-            </ul>
-          </li>
-          <li id="face"><a class="navegadores" href="https://www.facebook.com/TecNMmx" target="_blank"><samp
-                class="icon-facebook-circled-1"></samp></a></li>
-          <li id="tw">
-            <a class="navegadores" target="_blank" href="https://twitter.com/TecNM_MX"><span
-                class="icon-twitter-circled" target="_blank"></span></a>
-          </li>
-          <li id="inst"><a class="navegadores" href="https://www.instagram.com/tecnm/" target="_blank"><span
-                class="icon-instagram-1"></span></a></li>
-          <li id="yout"><a class="navegadores" href="https://www.youtube.com/@TecNMMXMexico" target="_blank"><span
-                class="icon-youtube-play"></span></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section id="inicio" class="home">
-      <article class="hero-image-inicio"
-        style="--hero-image-inicio:url(SubModulos/assets/school.jpg); --hero-attachment-inicio:fixed;">
-        <aside class="hero-image-opacity-inicio" style="--hero-opacity-color-inicio: rgb(0, 0, 0, 0.5)">
-          <div class="hero-image-content-inicio">
-            <h6>Bienvenido a</h6>
-            <h1 class="hero-image-title-inicio" style="--hero-text-color-inicio: #fff;">Sistema de Tecnológicos
-              Descentralizados del Estado de México</h1>
-            <p class="texto-image" style="--hero-text-color-inicio: #fff;">Este sitio tiene la finalidad de reunir toda
-              la información de los tecnologicos descentralizaos del Estado de México, te invitamos a recorrer todas las
-              secciones</p>
-            <p class="texto-image" style="--hero-text-color-inicio: #fff;">Si necesitas algun tipo de dato te
-              proporcionamos todo lo que necesitas de saber de los planes de estudios que proporcionan los 15
-              tecnologicos descentralizados del Estado de México</p>
+            <li id="alum">
+              Alumnos<span class="icon-down-dir"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="SubModulos/educacion-dual.html">Educación Dual</a>
+                </li>
+                <li>
+                  <a href="SubModulos/nodosProductivos.html"
+                    >Nodos Educativos Productivos</a
+                  >
+                </li>
+                <li><a href="SubModulos/becas.html">Becas</a></li>
+                <li>
+                  <a href="SubModulos/CalendarioEscolar.html"
+                    >Calendario Escolar</a
+                  >
+                </li>
+                <li>
+                  <a href="SubModulos/Servicio-Social.html">Servicio Social</a>
+                </li>
+                <li>
+                  <a href="SubModulos/Residencia-Profesional.html"
+                    >Residencia Profesional</a
+                  >
+                </li>
+                <li><a href="SubModulos/Titulacion.html">Titulación</a></li>
+              </ul>
+            </li>
+            <li id="conoc">
+              Conócenos <span class="icon-down-dir"></span>
+              <ul class="submenu">
+                <li><a href="SubModulos/Mision.html">Misión</a></li>
+                <li><a href="SubModulos/Vision.html">Visión</a></li>
+                <li><a href="SubModulos/objetivos.html">Objetivos</a></li>
+                <li><a href="SubModulos/historias.html">Historia</a></li>
+                <li><a href="SubModulos/directorio.html">Directorio</a></li>
+              </ul>
+            </li>
+            <li id="tramser">
+              Trámites y Servicios
+              <span class="icon-down-dir"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="https://edomex.gob.mx/transparencia" target="_blank">Transparencia</a>
+                </li>
+                <li><a href="https://cemer.edomex.gob.mx/" target="_blank">Mejora Regulatoria</a></li>
+              </ul>
+            </li>
+            <li id="face">
+              <a
+                class="navegadores"
+                href="https://www.facebook.com/TecNMmx"
+                target="_blank"
+                ><samp class="icon-facebook-circled-1"></samp
+              ></a>
+            </li>
+            <li id="tw">
+              <a
+                class="navegadores"
+                target="_blank"
+                href="https://twitter.com/TecNM_MX"
+                ><span class="icon-twitter-circled" target="_blank"></span
+              ></a>
+            </li>
+            <li id="inst">
+              <a
+                class="navegadores"
+                href="https://www.instagram.com/tecnm/"
+                target="_blank"
+                ><span class="icon-instagram-1"></span
+              ></a>
+            </li>
+            <li id="yout">
+              <a
+                class="navegadores"
+                href="https://www.youtube.com/@TecNMMXMexico"
+                target="_blank"
+                ><span class="icon-youtube-play"></span
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="inicio" class="home">
+        <article
+          class="hero-image-inicio"
+          style="
+            --hero-image-inicio: url(SubModulos/assets/school.jpg);
+            --hero-attachment-inicio: fixed;
+          "
+        >
+          <aside
+            class="hero-image-opacity-inicio"
+            style="--hero-opacity-color-inicio: rgb(0, 0, 0, 0.5)"
+          >
+            <div class="hero-image-content-inicio">
+              <h6>Bienvenido a</h6>
+              <h1
+                class="hero-image-title-inicio"
+                style="--hero-text-color-inicio: #fff"
+              >
+                Sistema de Tecnológicos Descentralizados del Estado de México
+              </h1>
+              <p class="texto-image" style="--hero-text-color-inicio: #fff">
+                Este sitio tiene la finalidad de reunir toda la información de
+                los tecnologicos descentralizaos del Estado de México, te
+                invitamos a recorrer todas las secciones
+              </p>
+              <p class="texto-image" style="--hero-text-color-inicio: #fff">
+                Si necesitas algun tipo de dato te proporcionamos todo lo que
+                necesitas de saber de los planes de estudios que proporcionan
+                los 15 tecnologicos descentralizados del Estado de México
+              </p>
+            </div>
+          </aside>
+        </article>
+      </section>
+      <section class="informacion">
+        <div class="info">
+          <div class="title-info">
+            <h2>Oferta Educativa del TecNM</h2>
           </div>
-        </aside>
-      </article>
-    </section>
-    <section class="informacion">
-      <div class="info">
+          <div class="contenedores-of">
+            <div class="contenedores-oferta">
+              <div class="contenedores-info">
+                <a
+                  target="_blank"
+                  href="SubModulos/ingenierias.html"
+                  class="portfolio-card-ING"
+                >
+                  <img
+                    src="/images/img-ingenierias/ingenieriasIMG.jpg"
+                    alt="Oferta Ingenierias"
+                  />
+                  <aside class="portfolio-card-ING-info">
+                    <div>
+                      <h5>Ingenierías</h5>
+                    </div>
+                  </aside>
+                </a>
+              </div>
+            </div>
+            <div class="contenedores-oferta">
+              <div class="contenedores-info">
+                <a
+                  target="_blank"
+                  href="SubModulos/licenciaturas.html"
+                  class="portfolio-card-LIC"
+                >
+                  <img
+                    src="/images/licenciatuasIMG.jpg"
+                    alt="Oferta Ingenierias"
+                  />
+                  <aside class="portfolio-card-LIC-info">
+                    <div>
+                      <h5>Licenciaturas</h5>
+                    </div>
+                  </aside>
+                </a>
+              </div>
+            </div>
+            <div class="contenedores-oferta">
+              <div class="contenedores-info">
+                <a
+                  target="_blank"
+                  href="SubModulos/posgrado.html"
+                  class="portfolio-card-POS"
+                >
+                  <img src="/images/posgradoIMG.jpg" alt="Oferta Ingenierias" />
+                  <aside class="portfolio-card-POS-info">
+                    <div>
+                      <h5>Posgrado</h5>
+                    </div>
+                  </aside>
+                </a>
+              </div>
+            </div>
+            <div class="contenedores-oferta">
+              <div class="contenedores-info">
+                <a
+                  target="_blank"
+                  href="SubModulos/Doctorados.html"
+                  class="portfolio-card-DOC"
+                >
+                  <img
+                    src="/images/doctoradoIMG.jpg"
+                    alt="Oferta Ingenierias"
+                  />
+                  <aside class="portfolio-card-DOC-info">
+                    <div>
+                      <h5>Doctorados</h5>
+                    </div>
+                  </aside>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-diplomado">
+            <div class="contenedores-dipl">
+              <div class="contenedores-info">
+                <a
+                  target="_blank"
+                  href="SubModulos/Diplomados.html"
+                  class="portfolio-card-DIPL"
+                >
+                  <img
+                    src="/images/diplomadoIMG.jpg"
+                    alt="Oferta Ingenierias"
+                  />
+                  <aside class="portfolio-card-DIPL-info">
+                    <div>
+                      <h5>Diplomados</h5>
+                    </div>
+                  </aside>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tecnologicos-sede">
         <div class="title-info">
-          <h2>Oferta Educativa del TecNM</h2>
+          <h2>Tecnológico De Estudios Superiores De...</h2>
+        </div>
+        <article
+          class="hero-image-inicio"
+          style="
+            --hero-image-inicio: url(SubModulos/assets/tec-nacional.jpg);
+            --hero-attachment-inicio: fixed;
+          "
+        >
+          <aside
+            class="hero-image-opacity-inicio"
+            style="--hero-opacity-color-inicio: rgb(0, 0, 0, 0.5)"
+          >
+            <div class="hero-image-content-inicio">
+              <ul class="sedes-tecnologicos">
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Chalco</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Chicoloapan</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Chimalhuacán</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Coacalco</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Cuatitlán Izcalli</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Ecatepec</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Huixquilucan</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Ixtapaluca</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Jilotepec</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Jocotitlán</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Oriente Del Estado De
+                    México</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De San Felipe Del
+                    Progreso</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Tianguistenco</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Valle De Bravo</a
+                  >
+                </li>
+                <li class="TES">
+                  <a href="" target="_blank"
+                    >Tecnológico De Estudios Superiores De Villa Guerrero</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </article>
+      </section>
+      <section class="alumnos">
+        <div class="title-info">
+          <h2>Alumnos</h2>
         </div>
         <div class="contenedores-of">
           <div class="contenedores-oferta">
             <div class="contenedores-info">
-              <a target="_blank" href="SubModulos/ingenierias.html" class="portfolio-card-ING">
-                <img src="/images/img-ingenierias/ingenieriasIMG.jpg" alt="Oferta Ingenierias">
-                <aside class="portfolio-card-ING-info">
+              <a
+                target="_blank"
+                href="SubModulos/educacion-dual.html"
+                class="portfolio-card-DUAL"
+              >
+                <img
+                  src="/SubModulos/assets/education-dual.jpg"
+                  alt="Oferta Ingenierias"
+                />
+                <aside class="portfolio-card-DUAL-info">
                   <div>
-                    <h5>Ingenierías</h5>
+                    <h5>Educación Dual</h5>
                   </div>
                 </aside>
               </a>
@@ -209,11 +506,18 @@
           </div>
           <div class="contenedores-oferta">
             <div class="contenedores-info">
-              <a target="_blank" href="SubModulos/licenciaturas.html" class="portfolio-card-LIC">
-                <img src="/images/licenciatuasIMG.jpg" alt="Oferta Ingenierias">
-                <aside class="portfolio-card-LIC-info">
+              <a
+                target="_blank"
+                href="SubModulos/nodosProductivos.html"
+                class="portfolio-card-NODOS"
+              >
+                <img
+                  src="/SubModulos/assets/nodos-p.jpg"
+                  alt="Oferta Ingenierias"
+                />
+                <aside class="portfolio-card-NODOS-info">
                   <div>
-                    <h5>Licenciaturas</h5>
+                    <h5>Nodos Productivos Educativos</h5>
                   </div>
                 </aside>
               </a>
@@ -221,11 +525,18 @@
           </div>
           <div class="contenedores-oferta">
             <div class="contenedores-info">
-              <a target="_blank" href="SubModulos/posgrado.html" class="portfolio-card-POS">
-                <img src="/images/posgradoIMG.jpg" alt="Oferta Ingenierias">
-                <aside class="portfolio-card-POS-info">
+              <a
+                target="_blank"
+                href="SubModulos/Becas.html"
+                class="portfolio-card-BECAS"
+              >
+                <img
+                  src="/SubModulos/assets/becas-jove.jpg"
+                  alt="Oferta Ingenierias"
+                />
+                <aside class="portfolio-card-BECAS-info">
                   <div>
-                    <h5>Posgrado</h5>
+                    <h5>Becas</h5>
                   </div>
                 </aside>
               </a>
@@ -233,11 +544,56 @@
           </div>
           <div class="contenedores-oferta">
             <div class="contenedores-info">
-              <a target="_blank" href="SubModulos/Doctorados.html" class="portfolio-card-DOC">
-                <img src="/images/doctoradoIMG.jpg" alt="Oferta Ingenierias">
-                <aside class="portfolio-card-DOC-info">
+              <a
+                target="_blank"
+                href="SubModulos/Calendario-Escolar.html"
+                class="portfolio-card-CES"
+              >
+                <img
+                  src="/SubModulos/assets/calender-education.jpg"
+                  alt="Oferta Ingenierias"
+                />
+                <aside class="portfolio-card-CES-info">
                   <div>
-                    <h5>Doctorados</h5>
+                    <h5>Calendario Escolar</h5>
+                  </div>
+                </aside>
+              </a>
+            </div>
+          </div>
+          <div class="contenedores-oferta">
+            <div class="contenedores-info">
+              <a
+                target="_blank"
+                href="SubModulos/Servicio-Social.html"
+                class="portfolio-card-CE"
+              >
+                <img
+                  src="/SubModulos/assets/servicio-s.jpg"
+                  alt="Oferta Ingenierias"
+                />
+                <aside class="portfolio-card-CE-info">
+                  <div>
+                    <h5>Servicio Social</h5>
+                  </div>
+                </aside>
+              </a>
+            </div>
+          </div>
+          <div class="contenedores-oferta">
+            <div class="contenedores-info">
+              <a
+                target="_blank"
+                href="SubModulos/Residencia-Profesional.html"
+                class="portfolio-card-REP"
+              >
+                <img
+                  src="/SubModulos/assets/residencia.jpg"
+                  alt="Oferta Ingenierias"
+                />
+                <aside class="portfolio-card-REP-info">
+                  <div>
+                    <h5>Residencia Profesional</h5>
                   </div>
                 </aside>
               </a>
@@ -247,151 +603,31 @@
         <div class="contenedor-diplomado">
           <div class="contenedores-dipl">
             <div class="contenedores-info">
-              <a target="_blank" href="SubModulos/Diplomados.html" class="portfolio-card-DIPL">
-                <img src="/images/diplomadoIMG.jpg" alt="Oferta Ingenierias">
+              <a
+                target="_blank"
+                href="SubModulos/Titulacion.html"
+                class="portfolio-card-DIPL"
+              >
+                <img
+                  src="/SubModulos/assets/titula.jpg"
+                  alt="Oferta Ingenierias"
+                />
                 <aside class="portfolio-card-DIPL-info">
                   <div>
-                    <h5>Diplomados</h5>
+                    <h5>Titulación</h5>
                   </div>
                 </aside>
               </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="tecnologicos-sede">
-      <div class="title-info">
-        <h2>Tecnológico De Estudios Superiores De...</h2>
-      </div>
-      <article class="hero-image-inicio"
-        style="--hero-image-inicio:url(SubModulos/assets/tec-nacional.jpg); --hero-attachment-inicio:fixed;">
-        <aside class="hero-image-opacity-inicio" style="--hero-opacity-color-inicio: rgb(0, 0, 0, 0.5)">
-          <div class="hero-image-content-inicio">
-            <ul class="sedes-tecnologicos">
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Chalco</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Chicoloapan</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Chimalhuacán</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Coacalco</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Cuatitlán Izcalli</a>
-              </li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Ecatepec</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Huixquilucan</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Ixtapaluca</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Jilotepec</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Jocotitlán</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Oriente Del Estado De
-                  México</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De San Felipe Del
-                  Progreso</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Tianguistenco</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Valle De Bravo</a></li>
-              <li class="TES"><a href="" target="_blank">Tecnológico De Estudios Superiores De Villa Guerrero</a></li>
-            </ul>
-          </div>
-        </aside>
-      </article>
-    </section>
-    <section class="alumnos">
-      <div class="title-info">
-        <h2>Alumnos</h2>
-      </div>
-      <div class="contenedores-of">
-        <div class="contenedores-oferta">
-          <div class="contenedores-info">
-            <a target="_blank" href="SubModulos/educacion-dual.html" class="portfolio-card-DUAL">
-              <img src="/SubModulos/assets/education-dual.jpg" alt="Oferta Ingenierias">
-              <aside class="portfolio-card-DUAL-info">
-                <div>
-                  <h5>Educación Dual</h5>
-                </div>
-              </aside>
-            </a>
-          </div>
-        </div>
-        <div class="contenedores-oferta">
-          <div class="contenedores-info">
-            <a target="_blank" href="SubModulos/nodosProductivos.html" class="portfolio-card-NODOS">
-              <img src="/SubModulos/assets/nodos-p.jpg" alt="Oferta Ingenierias">
-              <aside class="portfolio-card-NODOS-info">
-                <div>
-                  <h5>Nodos Productivos Educativos</h5>
-                </div>
-              </aside>
-            </a>
-          </div>
-        </div>
-        <div class="contenedores-oferta">
-          <div class="contenedores-info">
-            <a target="_blank" href="SubModulos/Becas.html" class="portfolio-card-BECAS">
-              <img src="/SubModulos/assets/becas-jove.jpg" alt="Oferta Ingenierias">
-              <aside class="portfolio-card-BECAS-info">
-                <div>
-                  <h5>Becas</h5>
-                </div>
-              </aside>
-            </a>
-          </div>
-        </div>
-        <div class="contenedores-oferta">
-          <div class="contenedores-info">
-            <a target="_blank" href="SubModulos/Calendario-Escolar.html" class="portfolio-card-CES">
-              <img src="/SubModulos/assets/calender-education.jpg" alt="Oferta Ingenierias">
-              <aside class="portfolio-card-CES-info">
-                <div>
-                  <h5>Calendario Escolar</h5>
-                </div>
-              </aside>
-            </a>
-          </div>
-        </div>
-        <div class="contenedores-oferta">
-          <div class="contenedores-info">
-            <a target="_blank" href="SubModulos/Servicio-Social.html" class="portfolio-card-CE">
-              <img src="/SubModulos/assets/calender-education.jpg" alt="Oferta Ingenierias">
-              <aside class="portfolio-card-CE-info">
-                <div>
-                  <h5>Servicio Social</h5>
-                </div>
-              </aside>
-            </a>
-          </div>
-        </div>
-        <div class="contenedores-oferta">
-          <div class="contenedores-info">
-            <a target="_blank" href="SubModulos/Residencia-Profesional.html" class="portfolio-card-REP">
-              <img src="/SubModulos/assets/servicio-s.jpg" alt="Oferta Ingenierias">
-              <aside class="portfolio-card-REP-info">
-                <div>
-                  <h5>Residencia Profesional</h5>
-                </div>
-              </aside>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="contenedor-diplomado">
-        <div class="contenedores-dipl">
-          <div class="contenedores-info">
-            <a target="_blank" href="SubModulos/Titulacion.html" class="portfolio-card-DIPL">
-              <img src="/SubModulos/assets/titula.jpg" alt="Oferta Ingenierias">
-              <aside class="portfolio-card-DIPL-info">
-                <div>
-                  <h5>Titulación</h5>
-                </div>
-              </aside>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <div data-include="componentes/footer.html"></div>
-  <button class="scroll-top-btn hidden">&#11014;</button>
-  <script src="js/jquery.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/index.js"></script>
-</body>
-
+      </section>
+    </main>
+    <div data-include="componentes/footer.html"></div>
+    <button class="scroll-top-btn hidden">&#11014;</button>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
