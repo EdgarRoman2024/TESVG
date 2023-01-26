@@ -2048,6 +2048,20 @@ text-align: justify;
   border-bottom: #060763 solid thick;
   text-align: center;
 }
+/* APARTADO DE TRANPARENCIA */
+.info-dual-three-transparencia{
+  padding: 2% 10% 3% 15%;
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.enlaces-trasperencia{
+  width: 100%;
+    margin: 3% 0% 0% 0%;
+    padding: 3% 34% 0% 40%;
+}
+
 
 /* ESTA FUNCION SE ACTUVA CUANDO SE HACE PEQUE;A LA PAGINA */
 /* El valor 768 es los pixeces cuando se activara */
